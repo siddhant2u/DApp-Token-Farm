@@ -1,0 +1,44 @@
+{
+	"analytics-uuid": "10ad9da4-4f67-411f-9d24-86dae7cb1620",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1603117048988
+	},
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "116132305748050821738",
+		"email": "siddhantp4ever@gmail.com",
+		"email_verified": true,
+		"at_hash": "xD989V86K4CORZK6SBVWtA",
+		"iat": 1603117066,
+		"exp": 1603120666
+	},
+	"tokens": {
+		"expires_at": 1603121040092,
+		"refresh_token": "1//0gfw0SyPwWkOZCgYIARAAGBASNwF-L9IrIIx8fReqNLf2H8JjS8Q6HfaRHnT2PdcvFoEMB4KhGPIh-oH_O3RwsfRTXduW3WE1cA4",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0AfH6SMCvcaOBC5H41cKpAb84UrRz64JAva-P0Li2hfe6HsUxBjgVu_1g9kaC4uv-s5mAdvuZvn4lyms5RbVyIpJwyrveNSrtXs-cgzlCYzWhTpGGAEm3-i-uBhYJ-npLk4KmG48nFSY7DW6HMZZlY6aH-5ektc8LXLFvF4SS_lM",
+		"expires_in": 3599,
+		"scope": "openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE3OGFiMWRjNTkxM2Q5MjlkMzdjMjNkY2FhOTYxODcyZjhkNzBiNjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE2MTMyMzA1NzQ4MDUwODIxNzM4IiwiZW1haWwiOiJzaWRkaGFudHA0ZXZlckBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ik1tdW5XZkpobURXUjJTd0xUSzFpTmciLCJpYXQiOjE2MDMxMTc0NDEsImV4cCI6MTYwMzEyMTA0MX0.NX7Hu8yEhsj5adWDRT1zcZs-PuflTlm_7EgScAK9kbBcKmbkMe0mHn-Rm0JmqBZDmTprR8BottXQuEBQO0P0tBUwRR1jA_yva_TgncsQFX3Jg3DWKjPd5yqPb56Y1isZKu3IajFZDd5EvF3f0zOLNXSfduPNhdgkO5LCma4lXfs1kpva02ykmdIbrmvnUtaMgyW3Vngc2mh72KG0v2mE4yLmiTQpRsrseD5FhTvGThGnd7jAZrNZkjkjsmbcOnDXnaGpo4OMpOPdb8WbOQICuCzaV5OjNWg575zcTVcTRR5AYJGXFofYBNUnX3rTzemVR0kVMTRxIGFRxSEOlMlCRg"
+	},
+	"activeProjects": {
+		"C:\\Users\\Siddhant\\Desktop\\Portfolio": "my-webpage-eb37c"
+	}
+}

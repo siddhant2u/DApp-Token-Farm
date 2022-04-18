@@ -1,0 +1,767 @@
+2020-06-18 23:58:20,344 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-06-18 23:58:20,476 [    132]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 113 ms 
+2020-06-18 23:58:20,496 [    152]   INFO -        #com.intellij.idea.Main - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@2ab6eaac[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@25738bbb 
+2020-06-18 23:58:20,544 [    200]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-193.6911.18.40.6514223, 20 May 2020 20:37) 
+2020-06-18 23:58:20,545 [    201]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-06-18 23:58:20,545 [    201]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_242-release-1644-b01 (JetBrains s.r.o) 
+2020-06-18 23:58:20,545 [    201]   INFO -        #com.intellij.idea.Main - JVM: 25.242-b01 (OpenJDK 64-Bit Server VM) 
+2020-06-18 23:58:20,546 [    202]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djna.nosys=true -Djna.boot.library.path= -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Djava.library.path=C:\Program Files\Android\Android Studio\jre\jre\bin;C:\Program Files\Android\Android Studio\jre\jre\bin\server -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio4.0 -XX:ErrorFile=C:\Users\Siddhant\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Siddhant\java_error_in_studio.hprof 
+2020-06-18 23:58:20,547 [    203]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-06-18 23:58:20,547 [    203]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-06-18 23:58:21,091 [    747]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-06-18 23:58:34,385 [  14041]   WARN -        #com.intellij.idea.Main - Directory is invalid C:\Users\Siddhant\.AndroidStudio3.4\config\plugins 
+java.io.IOException: Directory is invalid C:\Users\Siddhant\.AndroidStudio3.4\config\plugins
+	at com.intellij.openapi.util.io.FileUtil.copyDir(FileUtil.java:498)
+	at com.intellij.openapi.util.io.FileUtil.copyDir(FileUtil.java:488)
+	at com.intellij.openapi.util.io.FileUtil.copyDir(FileUtil.java:469)
+	at com.intellij.openapi.application.ConfigImportHelper.doImport(ConfigImportHelper.java:411)
+	at com.intellij.openapi.application.ConfigImportHelper.doImport(ConfigImportHelper.java:387)
+	at com.intellij.openapi.application.ConfigImportHelper.importConfigsTo(ConfigImportHelper.java:86)
+	at com.intellij.idea.StartupUtil.lambda$startApp$3(StartupUtil.java:228)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:301)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:398)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2020-06-18 23:59:00,632 [  40288]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-groovy.xml 
+2020-06-18 23:59:00,644 [  40300]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-detection-groovy.xml 
+2020-06-18 23:59:00,839 [  40495]   INFO - llij.ide.plugins.PluginManager - Plugin "Java" misses optional descriptor profiler-java.xml 
+2020-06-18 23:59:00,968 [  40624]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.4.0), App Links Assistant (0.1), ChangeReminder (193.6911.18.40.6514223), Compose (0.1.0-dev03), Configuration Script (193.6911.18.40.6514223), Copyright (193.6911.18.40.6514223), Coverage (193.6911.18.40.6514223), EditorConfig (193.6911.18.40.6514223), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git (193.6911.18.40.6514223), GitHub (193.6911.18.40.6514223), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (193.6911.18.40.6514223), Gradle-Java (193.6911.18.40.6514223), Groovy (193.6911.18.40.6514223), IDEA CORE (193.6911.18.40.6514223), IntelliLang (193.6911.18.40.6514223), JUnit (193.6911.18.40.6514223), Java (193.6911.18.40.6514223), Java Bytecode Decompiler (193.6911.18.40.6514223), Java IDE Customization (193.6911.18.40.6514223), Java Internationalization (193.6911.18.40.6514223), Java Stream Debugger (193.6911.18.40.6514223), Kotlin (1.3.72-release-Studio4.0-1), Layoutlib Native (1.0), Layoutlib Standard (1.0), Mercurial (193.6911.18.40.6514223), Properties (193.6911.18.40.6514223), Settings Repository (193.6911.18.40.6514223), Shell Script (193.6911.18.40.6514223), Smali Support (193.6911.18.40.6514223), Subversion (193.6911.18.40.6514223), Task Management (193.6911.18.40.6514223), Terminal (193.6911.18.40.6514223), Test Recorder (1.0), TestNG (193.6911.18.40.6514223), TextMate bundles (193.6911.18.40.6514223), YAML (193.6911.18.40.6514223) 
+2020-06-18 23:59:02,055 [  41711]   INFO - fs.newvfs.persistent.FSRecords - Marking VFS as corrupted: 'C:\Users\Siddhant\.AndroidStudio4.0\system\caches\names.dat' does not exist 
+2020-06-18 23:59:02,061 [  41717]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2020-06-18 23:59:02,121 [  41777]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-06-18 23:59:02,193 [  41849]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-06-18 23:59:02,196 [  41852]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2020-06-18 23:59:02,226 [  41882]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2020-06-18 23:59:02,226 [  41882]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2020-06-18 23:59:02,311 [  41967]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2020-06-18 23:59:02,358 [  42014]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-06-18 23:59:02,385 [  42041]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-06-18 23:59:02,479 [  42135]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-06-18 23:59:02,805 [  42461]   WARN - nSystem.impl.ActionManagerImpl - keymap "ReSharper" not found [Plugin: com.android.tools.ndk] 
+2020-06-18 23:59:03,671 [  43327]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:GDBCommands,Kotlin,DGM,LLDBCommands,KNM,kotlin_builtins,Groovy,XML,Properties,JAVA,HTML,CLASS,KJSM 
+2020-06-18 23:59:04,140 [  43796]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-18 23:59:04,140 [  43796]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-18 23:59:04,141 [  43797]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-18 23:59:04,141 [  43797]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-18 23:59:04,143 [  43799]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-18 23:59:04,143 [  43799]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-18 23:59:04,143 [  43799]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-18 23:59:04,143 [  43799]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-18 23:59:04,143 [  43799]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-18 23:59:04,143 [  43799]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-18 23:59:04,144 [  43800]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-18 23:59:04,144 [  43800]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-18 23:59:04,144 [  43800]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-18 23:59:04,144 [  43800]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-18 23:59:04,432 [  44088]   INFO - il.indexing.FileBasedIndexImpl - Indices to be built:FrameworkDetectionIndex,TodoIndex,IdIndex,FilenameIndex,filetypes,Stubs,Trigram.Index,fileIncludes,DomFileIndex,RelaxSymbolIndex,XmlTagNames,XmlNamespaces,html5.custom.attributes.index,SchemaTypeInheritance,json.file.root.values,ImageFileInfoIndex,bytecodeAnalysis,java.auto.module.name,java.source.module.name,java.null.method.argument,java.simple.property,java.fun.expression,java.binary.plus.expression,RefQueueIndex,xmlProperties,GroovyDslFileIndex,groovy.trait.fields,groovy.trait.methods,org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex,org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex,org.jetbrains.kotlin.ide.konan.index.KotlinNativeMetaFileIndex,com.android.tools.idea.model.AndroidManifestIndex$Companion$NAME$1.NAME,BindingXmlIndex,MlModelFileIndex,FileNameWithoutExtensionIndex,android.ndk.jni.nativemethodindex,editorconfig.index.name,yaml.keys.name 
+2020-06-18 23:59:04,439 [  44095]   INFO - pl$FileIndexDataInitialization - Initialization done: 1949 
+2020-06-18 23:59:05,198 [  44854]   INFO - tellij.psi.stubs.StubIndexImpl - Following stub indices will be built:dom.namespaceKey,dom.elementClass,java.annotations,java.class.extlist,java.field.name,java.method.name,jvm.static.member.name,jvm.static.member.type,java.anonymous.baseref,java.method.parameter.types,java.class.shortname,java.class.fqn,java.module.name,properties.index,gr.class.fqn,gr.script.fqn,gr.field.name,gr.method.name,gr.annot.method.name,gr.annot.members,gr.script.class,gr.class.super,gr.anonymous.class,org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex,org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex,org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex,org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex 
+2020-06-18 23:59:05,198 [  44854]   INFO - exImpl$StubIndexInitialization - Initialization done: 759 
+2020-06-18 23:59:05,960 [  45616]   INFO - s.RepoProgressIndicatorAdapter - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-06-18 23:59:05,967 [  45623]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-18 23:59:06,992 [  46648]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-06-18 23:59:06,997 [  46653]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2020-06-18 23:59:06,999 [  46655]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2020-06-18 23:59:07,002 [  46658]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2020-06-18 23:59:07,003 [  46659]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2020-06-18 23:59:07,006 [  46662]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2020-06-18 23:59:07,006 [  46662]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2020-06-18 23:59:07,009 [  46665]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2020-06-18 23:59:07,009 [  46665]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2020-06-18 23:59:07,010 [  46666]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2020-06-18 23:59:07,017 [  46673]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2020-06-18 23:59:07,545 [  47201]   INFO - dea.updater.SdkComponentSource - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-06-18 23:59:07,552 [  47208]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-06-18 23:59:07,556 [  47212]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2020-06-18 23:59:07,556 [  47212]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2020-06-18 23:59:07,556 [  47212]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2020-06-18 23:59:07,558 [  47214]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2020-06-18 23:59:07,561 [  47217]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2020-06-18 23:59:07,561 [  47217]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2020-06-18 23:59:07,562 [  47218]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2020-06-18 23:59:07,562 [  47218]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2020-06-18 23:59:07,564 [  47220]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2020-06-18 23:59:07,566 [  47222]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2020-06-18 23:59:12,200 [  51856]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2020-06-18 23:59:34,317 [  73973]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2020-06-18 23:59:41,300 [  80956]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 16 ms 
+2020-06-18 23:59:41,797 [  81453]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2020-06-18 23:59:41,797 [  81453]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-06-18 23:59:41,798 [  81454]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-06-18 23:59:41,809 [  81465]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2020-06-18 23:59:41,814 [  81470]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-06-18 23:59:41,837 [  81493]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-06-18 23:59:41,837 [  81493]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-06-18 23:59:41,838 [  81494]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-06-18 23:59:41,840 [  81496]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-18 23:59:41,845 [  81501]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-06-18 23:59:41,852 [  81508]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-18 23:59:57,712 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-06-18 23:59:57,842 [    130]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 97 ms 
+2020-06-18 23:59:57,956 [    244]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-193.6911.18.40.6514223, 20 May 2020 20:37) 
+2020-06-18 23:59:57,956 [    244]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-06-18 23:59:57,956 [    244]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_242-release-1644-b01 (JetBrains s.r.o) 
+2020-06-18 23:59:57,956 [    244]   INFO -        #com.intellij.idea.Main - JVM: 25.242-b01 (OpenJDK 64-Bit Server VM) 
+2020-06-18 23:59:57,957 [    245]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djna.nosys=true -Djna.boot.library.path= -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Djava.library.path=C:\Program Files\Android\Android Studio\jre\jre\bin;C:\Program Files\Android\Android Studio\jre\jre\bin\server -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio4.0 -XX:ErrorFile=C:\Users\Siddhant\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Siddhant\java_error_in_studio.hprof 
+2020-06-18 23:59:57,958 [    246]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-06-18 23:59:57,958 [    246]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-06-18 23:59:58,307 [    595]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@5b123731[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@6409d70c 
+2020-06-18 23:59:58,411 [    699]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-06-18 23:59:59,165 [   1453]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-groovy.xml 
+2020-06-18 23:59:59,167 [   1455]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-detection-groovy.xml 
+2020-06-18 23:59:59,383 [   1671]   INFO - llij.ide.plugins.PluginManager - Plugin "Java" misses optional descriptor profiler-java.xml 
+2020-06-18 23:59:59,603 [   1891]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.4.0), App Links Assistant (0.1), ChangeReminder (193.6911.18.40.6514223), Compose (0.1.0-dev03), Configuration Script (193.6911.18.40.6514223), Copyright (193.6911.18.40.6514223), Coverage (193.6911.18.40.6514223), EditorConfig (193.6911.18.40.6514223), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git (193.6911.18.40.6514223), GitHub (193.6911.18.40.6514223), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (193.6911.18.40.6514223), Gradle-Java (193.6911.18.40.6514223), Groovy (193.6911.18.40.6514223), IDEA CORE (193.6911.18.40.6514223), IntelliLang (193.6911.18.40.6514223), JUnit (193.6911.18.40.6514223), Java (193.6911.18.40.6514223), Java Bytecode Decompiler (193.6911.18.40.6514223), Java IDE Customization (193.6911.18.40.6514223), Java Internationalization (193.6911.18.40.6514223), Java Stream Debugger (193.6911.18.40.6514223), Kotlin (1.3.72-release-Studio4.0-1), Layoutlib Native (1.0), Layoutlib Standard (1.0), Mercurial (193.6911.18.40.6514223), Properties (193.6911.18.40.6514223), Settings Repository (193.6911.18.40.6514223), Shell Script (193.6911.18.40.6514223), Smali Support (193.6911.18.40.6514223), Subversion (193.6911.18.40.6514223), Task Management (193.6911.18.40.6514223), Terminal (193.6911.18.40.6514223), Test Recorder (1.0), TestNG (193.6911.18.40.6514223), TextMate bundles (193.6911.18.40.6514223), YAML (193.6911.18.40.6514223) 
+2020-06-19 00:00:00,712 [   3000]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2020-06-19 00:00:00,746 [   3034]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-06-19 00:00:00,909 [   3197]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-06-19 00:00:00,948 [   3236]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2020-06-19 00:00:01,017 [   3305]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2020-06-19 00:00:01,055 [   3343]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-06-19 00:00:01,107 [   3395]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-06-19 00:00:01,250 [   3538]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-06-19 00:00:01,491 [   3779]   WARN - nSystem.impl.ActionManagerImpl - keymap "ReSharper" not found [Plugin: com.android.tools.ndk] 
+2020-06-19 00:00:02,206 [   4494]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 00:00:02,207 [   4495]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 00:00:02,208 [   4496]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 00:00:02,208 [   4496]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 00:00:02,210 [   4498]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 00:00:02,210 [   4498]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 00:00:02,210 [   4498]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 00:00:02,211 [   4499]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 00:00:02,211 [   4499]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 00:00:02,211 [   4499]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 00:00:02,211 [   4499]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 00:00:02,211 [   4499]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 00:00:02,212 [   4500]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 00:00:02,212 [   4500]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 00:00:02,400 [   4688]   INFO - pl$FileIndexDataInitialization - Initialization done: 1263 
+2020-06-19 00:00:02,727 [   5015]   INFO - exImpl$StubIndexInitialization - Initialization done: 325 
+2020-06-19 00:00:03,681 [   5969]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-19 00:00:05,016 [   7304]   INFO - s.RepoProgressIndicatorAdapter - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-06-19 00:00:05,022 [   7310]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2020-06-19 00:00:05,027 [   7315]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2020-06-19 00:00:05,029 [   7317]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-06-19 00:00:05,032 [   7320]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2020-06-19 00:00:05,032 [   7320]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2020-06-19 00:00:05,036 [   7324]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2020-06-19 00:00:05,036 [   7324]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2020-06-19 00:00:05,037 [   7325]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2020-06-19 00:00:05,038 [   7326]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2020-06-19 00:00:05,039 [   7327]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2020-06-19 00:00:05,040 [   7328]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2020-06-19 00:00:07,552 [   9840]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2020-06-19 00:00:44,940 [  47228]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2020-06-19 00:00:46,858 [  49146]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 21 ms, FileTypeManager took 11 ms 
+2020-06-19 00:00:47,283 [  49571]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2020-06-19 00:00:47,283 [  49571]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-06-19 00:00:47,286 [  49574]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-06-19 00:00:47,298 [  49586]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2020-06-19 00:00:47,300 [  49588]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 00:00:47,300 [  49588]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-06-19 00:00:47,322 [  49610]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-06-19 00:00:47,323 [  49611]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-06-19 00:00:47,324 [  49612]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-06-19 00:00:47,328 [  49616]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-06-19 00:00:47,333 [  49621]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 00:00:56,662 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-06-19 00:00:56,778 [    116]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 72 ms 
+2020-06-19 00:00:56,842 [    180]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-193.6911.18.40.6514223, 20 May 2020 20:37) 
+2020-06-19 00:00:56,843 [    181]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-06-19 00:00:56,843 [    181]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_242-release-1644-b01 (JetBrains s.r.o) 
+2020-06-19 00:00:56,843 [    181]   INFO -        #com.intellij.idea.Main - JVM: 25.242-b01 (OpenJDK 64-Bit Server VM) 
+2020-06-19 00:00:56,843 [    181]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djna.nosys=true -Djna.boot.library.path= -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Djava.library.path=C:\Program Files\Android\Android Studio\jre\jre\bin;C:\Program Files\Android\Android Studio\jre\jre\bin\server -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio4.0 -XX:ErrorFile=C:\Users\Siddhant\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Siddhant\java_error_in_studio.hprof 
+2020-06-19 00:00:56,844 [    182]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-06-19 00:00:56,844 [    182]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-06-19 00:00:57,116 [    454]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@377f9ba0[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@68c314fb 
+2020-06-19 00:00:57,186 [    524]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-06-19 00:00:57,713 [   1051]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-groovy.xml 
+2020-06-19 00:00:57,715 [   1053]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-detection-groovy.xml 
+2020-06-19 00:00:57,866 [   1204]   INFO - llij.ide.plugins.PluginManager - Plugin "Java" misses optional descriptor profiler-java.xml 
+2020-06-19 00:00:58,017 [   1355]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.4.0), App Links Assistant (0.1), ChangeReminder (193.6911.18.40.6514223), Compose (0.1.0-dev03), Configuration Script (193.6911.18.40.6514223), Copyright (193.6911.18.40.6514223), Coverage (193.6911.18.40.6514223), EditorConfig (193.6911.18.40.6514223), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git (193.6911.18.40.6514223), GitHub (193.6911.18.40.6514223), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (193.6911.18.40.6514223), Gradle-Java (193.6911.18.40.6514223), Groovy (193.6911.18.40.6514223), IDEA CORE (193.6911.18.40.6514223), IntelliLang (193.6911.18.40.6514223), JUnit (193.6911.18.40.6514223), Java (193.6911.18.40.6514223), Java Bytecode Decompiler (193.6911.18.40.6514223), Java IDE Customization (193.6911.18.40.6514223), Java Internationalization (193.6911.18.40.6514223), Java Stream Debugger (193.6911.18.40.6514223), Kotlin (1.3.72-release-Studio4.0-1), Layoutlib Native (1.0), Layoutlib Standard (1.0), Mercurial (193.6911.18.40.6514223), Properties (193.6911.18.40.6514223), Settings Repository (193.6911.18.40.6514223), Shell Script (193.6911.18.40.6514223), Smali Support (193.6911.18.40.6514223), Subversion (193.6911.18.40.6514223), Task Management (193.6911.18.40.6514223), Terminal (193.6911.18.40.6514223), Test Recorder (1.0), TestNG (193.6911.18.40.6514223), TextMate bundles (193.6911.18.40.6514223), YAML (193.6911.18.40.6514223) 
+2020-06-19 00:00:59,148 [   2486]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2020-06-19 00:00:59,194 [   2532]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-06-19 00:00:59,340 [   2678]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2020-06-19 00:00:59,381 [   2719]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-06-19 00:00:59,409 [   2747]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-06-19 00:00:59,436 [   2774]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2020-06-19 00:00:59,459 [   2797]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-06-19 00:00:59,563 [   2901]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-06-19 00:00:59,896 [   3234]   WARN - nSystem.impl.ActionManagerImpl - keymap "ReSharper" not found [Plugin: com.android.tools.ndk] 
+2020-06-19 00:01:00,482 [   3820]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 00:01:00,482 [   3820]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 00:01:00,483 [   3821]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 00:01:00,484 [   3822]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 00:01:00,485 [   3823]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 00:01:00,485 [   3823]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 00:01:00,485 [   3823]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 00:01:00,485 [   3823]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 00:01:00,485 [   3823]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 00:01:00,486 [   3824]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 00:01:00,486 [   3824]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 00:01:00,486 [   3824]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 00:01:00,486 [   3824]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 00:01:00,486 [   3824]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 00:01:00,632 [   3970]   INFO - pl$FileIndexDataInitialization - Initialization done: 1134 
+2020-06-19 00:01:00,892 [   4230]   INFO - exImpl$StubIndexInitialization - Initialization done: 259 
+2020-06-19 00:01:01,743 [   5081]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-19 00:01:03,067 [   6405]   INFO - s.RepoProgressIndicatorAdapter - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-06-19 00:01:03,075 [   6413]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2020-06-19 00:01:03,077 [   6415]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2020-06-19 00:01:03,077 [   6415]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2020-06-19 00:01:03,080 [   6418]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2020-06-19 00:01:03,080 [   6418]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-06-19 00:01:03,082 [   6420]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2020-06-19 00:01:03,083 [   6421]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2020-06-19 00:01:03,083 [   6421]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2020-06-19 00:01:03,084 [   6422]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2020-06-19 00:01:03,086 [   6424]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2020-06-19 00:01:03,087 [   6425]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2020-06-19 00:01:05,406 [   8744]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2020-06-19 00:01:17,205 [  20543]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2020-06-19 00:01:18,865 [  22203]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 15 ms 
+2020-06-19 00:01:19,273 [  22611]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2020-06-19 00:01:19,274 [  22612]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-06-19 00:01:19,275 [  22613]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-06-19 00:01:19,277 [  22615]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 00:01:19,285 [  22623]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2020-06-19 00:01:19,286 [  22624]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-06-19 00:01:19,301 [  22639]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-06-19 00:01:19,301 [  22639]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-06-19 00:01:19,302 [  22640]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-06-19 00:01:19,305 [  22643]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-06-19 00:01:19,313 [  22651]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 12:55:29,619 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-06-19 12:55:29,732 [    113]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 86 ms 
+2020-06-19 12:55:29,892 [    273]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-193.6911.18.40.6514223, 20 May 2020 20:37) 
+2020-06-19 12:55:29,893 [    274]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-06-19 12:55:29,893 [    274]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_242-release-1644-b01 (JetBrains s.r.o) 
+2020-06-19 12:55:29,894 [    275]   INFO -        #com.intellij.idea.Main - JVM: 25.242-b01 (OpenJDK 64-Bit Server VM) 
+2020-06-19 12:55:29,895 [    276]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djna.nosys=true -Djna.boot.library.path= -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Djava.library.path=C:\Program Files\Android\Android Studio\jre\jre\bin;C:\Program Files\Android\Android Studio\jre\jre\bin\server -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio4.0 -XX:ErrorFile=C:\Users\Siddhant\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Siddhant\java_error_in_studio.hprof 
+2020-06-19 12:55:29,895 [    276]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-06-19 12:55:29,896 [    277]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-06-19 12:55:30,323 [    704]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@30eb419a[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@63f57f3c 
+2020-06-19 12:55:30,414 [    795]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-06-19 12:55:31,516 [   1897]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-groovy.xml 
+2020-06-19 12:55:31,519 [   1900]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-detection-groovy.xml 
+2020-06-19 12:55:31,806 [   2187]   INFO - llij.ide.plugins.PluginManager - Plugin "Java" misses optional descriptor profiler-java.xml 
+2020-06-19 12:55:32,017 [   2398]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.4.0), App Links Assistant (0.1), ChangeReminder (193.6911.18.40.6514223), Compose (0.1.0-dev03), Configuration Script (193.6911.18.40.6514223), Copyright (193.6911.18.40.6514223), Coverage (193.6911.18.40.6514223), EditorConfig (193.6911.18.40.6514223), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git (193.6911.18.40.6514223), GitHub (193.6911.18.40.6514223), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (193.6911.18.40.6514223), Gradle-Java (193.6911.18.40.6514223), Groovy (193.6911.18.40.6514223), IDEA CORE (193.6911.18.40.6514223), IntelliLang (193.6911.18.40.6514223), JUnit (193.6911.18.40.6514223), Java (193.6911.18.40.6514223), Java Bytecode Decompiler (193.6911.18.40.6514223), Java IDE Customization (193.6911.18.40.6514223), Java Internationalization (193.6911.18.40.6514223), Java Stream Debugger (193.6911.18.40.6514223), Kotlin (1.3.72-release-Studio4.0-1), Layoutlib Native (1.0), Layoutlib Standard (1.0), Mercurial (193.6911.18.40.6514223), Properties (193.6911.18.40.6514223), Settings Repository (193.6911.18.40.6514223), Shell Script (193.6911.18.40.6514223), Smali Support (193.6911.18.40.6514223), Subversion (193.6911.18.40.6514223), Task Management (193.6911.18.40.6514223), Terminal (193.6911.18.40.6514223), Test Recorder (1.0), TestNG (193.6911.18.40.6514223), TextMate bundles (193.6911.18.40.6514223), YAML (193.6911.18.40.6514223) 
+2020-06-19 12:55:33,471 [   3852]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2020-06-19 12:55:33,495 [   3876]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-06-19 12:55:33,651 [   4032]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2020-06-19 12:55:33,788 [   4169]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-06-19 12:55:33,792 [   4173]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2020-06-19 12:55:33,867 [   4248]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-06-19 12:55:33,893 [   4274]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-06-19 12:55:33,898 [   4279]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-06-19 12:55:34,267 [   4648]   WARN - nSystem.impl.ActionManagerImpl - keymap "ReSharper" not found [Plugin: com.android.tools.ndk] 
+2020-06-19 12:55:35,042 [   5423]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 12:55:35,042 [   5423]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 12:55:35,043 [   5424]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 12:55:35,043 [   5424]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 12:55:35,045 [   5426]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 12:55:35,045 [   5426]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 12:55:35,046 [   5427]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 12:55:35,046 [   5427]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 12:55:35,046 [   5427]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 12:55:35,046 [   5427]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 12:55:35,046 [   5427]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 12:55:35,046 [   5427]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 12:55:35,046 [   5427]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 12:55:35,047 [   5428]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 12:55:35,370 [   5751]   INFO - pl$FileIndexDataInitialization - Initialization done: 1492 
+2020-06-19 12:55:35,714 [   6095]   INFO - exImpl$StubIndexInitialization - Initialization done: 343 
+2020-06-19 12:55:48,935 [  19316]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-19 12:55:49,175 [  19556]   WARN - s.RepoProgressIndicatorAdapter - Failed to connect to host: https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-19 12:55:49,179 [  19560]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2020-06-19 12:55:49,180 [  19561]   WARN - s.RepoProgressIndicatorAdapter - Failed to connect to host: https://dl.google.com/android/repository/addons_list-2.xml 
+2020-06-19 12:55:49,182 [  19563]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2020-06-19 12:55:49,183 [  19564]   WARN - s.RepoProgressIndicatorAdapter - Failed to connect to host: https://dl.google.com/android/repository/addons_list-1.xml 
+2020-06-19 12:55:49,184 [  19565]   WARN - s.RepoProgressIndicatorAdapter - Failed to download any source lists! 
+2020-06-19 12:55:49,185 [  19566]   INFO - s.RepoProgressIndicatorAdapter - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-06-19 12:55:49,192 [  19573]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-06-19 12:55:49,194 [  19575]   WARN - s.RepoProgressIndicatorAdapter - IO exception while downloading manifest 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:607)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:56)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:376)
+	at com.android.tools.idea.sdk.StudioDownloader.lambda$doDownloadFully$2(StudioDownloader.java:197)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:518)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:500)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:56)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:350)
+	at com.android.tools.idea.sdk.StudioDownloader.doDownloadFully(StudioDownloader.java:193)
+	at com.android.tools.idea.sdk.StudioDownloader.downloadFully(StudioDownloader.java:133)
+	at com.android.tools.idea.sdk.StudioDownloader.downloadFully(StudioDownloader.java:250)
+	at com.android.tools.idea.sdk.StudioDownloader.downloadAndStream(StudioDownloader.java:123)
+	at com.android.repository.impl.manager.RemoteRepoLoaderImpl.lambda$fetchPackages$0(RemoteRepoLoaderImpl.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-19 12:55:50,191 [  20572]   WARN - s.RepoProgressIndicatorAdapter - Still waiting for package manifests to be fetched remotely. 
+2020-06-19 12:55:50,262 [  20643]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2020-06-19 12:56:05,800 [  36181]  ERROR - ted.ConsolidatedProgressStep$1 - SDK emulator directory is missing 
+com.android.tools.idea.welcome.install.WizardException: SDK emulator directory is missing
+	at com.android.tools.idea.welcome.install.CheckSdkOperation.perform(CheckSdkOperation.kt:42)
+	at com.android.tools.idea.welcome.install.CheckSdkOperation.perform(CheckSdkOperation.kt:37)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:69)
+	at com.android.tools.idea.welcome.install.InstallOperation$OperationChain.perform(InstallOperation.java:152)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:69)
+	at com.android.tools.idea.welcome.wizard.deprecated.InstallComponentsPath.runLongOperation(InstallComponentsPath.java:275)
+	at com.android.tools.idea.welcome.wizard.deprecated.ConsolidatedProgressStep.doLongRunningOperation(ConsolidatedProgressStep.java:78)
+	at com.android.tools.idea.welcome.wizard.deprecated.ConsolidatedProgressStep.access$000(ConsolidatedProgressStep.java:32)
+	at com.android.tools.idea.welcome.wizard.deprecated.ConsolidatedProgressStep$1.run(ConsolidatedProgressStep.java:58)
+	at com.android.tools.idea.welcome.wizard.deprecated.FirstRunWizardHost$LongRunningOperationWrapper.run(FirstRunWizardHost.java:440)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:888)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:163)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:585)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:531)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:59)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:150)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.lambda$run$0(CoreProgressManager.java:402)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:402)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:238)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-19 12:56:05,802 [  36183]  ERROR - ted.ConsolidatedProgressStep$1 - Android Studio 4.0  Build #AI-193.6911.18.40.6514223 
+2020-06-19 12:56:05,802 [  36183]  ERROR - ted.ConsolidatedProgressStep$1 - JDK: 1.8.0_242-release; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-06-19 12:56:05,802 [  36183]  ERROR - ted.ConsolidatedProgressStep$1 - OS: Windows 10 
+2020-06-19 12:56:05,816 [  36197]  ERROR - ted.ConsolidatedProgressStep$1 - Last Action:  
+2020-06-19 12:56:14,007 [  44388]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2020-06-19 12:56:18,319 [  48700]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 22 ms 
+2020-06-19 12:56:18,795 [  49176]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2020-06-19 12:56:18,796 [  49177]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-06-19 12:56:18,799 [  49180]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-06-19 12:56:18,813 [  49194]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2020-06-19 12:56:18,815 [  49196]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 12:56:18,816 [  49197]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-06-19 12:56:18,840 [  49221]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-06-19 12:56:18,840 [  49221]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-06-19 12:56:18,841 [  49222]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-06-19 12:56:18,845 [  49226]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-06-19 12:56:18,852 [  49233]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 12:56:23,491 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-06-19 12:56:23,572 [     81]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 62 ms 
+2020-06-19 12:56:23,648 [    157]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-193.6911.18.40.6514223, 20 May 2020 20:37) 
+2020-06-19 12:56:23,649 [    158]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-06-19 12:56:23,649 [    158]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_242-release-1644-b01 (JetBrains s.r.o) 
+2020-06-19 12:56:23,649 [    158]   INFO -        #com.intellij.idea.Main - JVM: 25.242-b01 (OpenJDK 64-Bit Server VM) 
+2020-06-19 12:56:23,649 [    158]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djna.nosys=true -Djna.boot.library.path= -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Djava.library.path=C:\Program Files\Android\Android Studio\jre\jre\bin;C:\Program Files\Android\Android Studio\jre\jre\bin\server -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio4.0 -XX:ErrorFile=C:\Users\Siddhant\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Siddhant\java_error_in_studio.hprof 
+2020-06-19 12:56:23,649 [    158]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-06-19 12:56:23,650 [    159]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-06-19 12:56:23,939 [    448]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@81e866b[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@32838bf8 
+2020-06-19 12:56:24,014 [    523]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-06-19 12:56:24,549 [   1058]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-groovy.xml 
+2020-06-19 12:56:24,551 [   1060]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-detection-groovy.xml 
+2020-06-19 12:56:24,697 [   1206]   INFO - llij.ide.plugins.PluginManager - Plugin "Java" misses optional descriptor profiler-java.xml 
+2020-06-19 12:56:24,823 [   1332]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.4.0), App Links Assistant (0.1), ChangeReminder (193.6911.18.40.6514223), Compose (0.1.0-dev03), Configuration Script (193.6911.18.40.6514223), Copyright (193.6911.18.40.6514223), Coverage (193.6911.18.40.6514223), EditorConfig (193.6911.18.40.6514223), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git (193.6911.18.40.6514223), GitHub (193.6911.18.40.6514223), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (193.6911.18.40.6514223), Gradle-Java (193.6911.18.40.6514223), Groovy (193.6911.18.40.6514223), IDEA CORE (193.6911.18.40.6514223), IntelliLang (193.6911.18.40.6514223), JUnit (193.6911.18.40.6514223), Java (193.6911.18.40.6514223), Java Bytecode Decompiler (193.6911.18.40.6514223), Java IDE Customization (193.6911.18.40.6514223), Java Internationalization (193.6911.18.40.6514223), Java Stream Debugger (193.6911.18.40.6514223), Kotlin (1.3.72-release-Studio4.0-1), Layoutlib Native (1.0), Layoutlib Standard (1.0), Mercurial (193.6911.18.40.6514223), Properties (193.6911.18.40.6514223), Settings Repository (193.6911.18.40.6514223), Shell Script (193.6911.18.40.6514223), Smali Support (193.6911.18.40.6514223), Subversion (193.6911.18.40.6514223), Task Management (193.6911.18.40.6514223), Terminal (193.6911.18.40.6514223), Test Recorder (1.0), TestNG (193.6911.18.40.6514223), TextMate bundles (193.6911.18.40.6514223), YAML (193.6911.18.40.6514223) 
+2020-06-19 12:56:25,758 [   2267]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2020-06-19 12:56:25,793 [   2302]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-06-19 12:56:25,992 [   2501]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2020-06-19 12:56:25,996 [   2505]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2020-06-19 12:56:26,116 [   2625]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-06-19 12:56:26,149 [   2658]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-06-19 12:56:26,172 [   2681]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-06-19 12:56:26,239 [   2748]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-06-19 12:56:26,583 [   3092]   WARN - nSystem.impl.ActionManagerImpl - keymap "ReSharper" not found [Plugin: com.android.tools.ndk] 
+2020-06-19 12:56:27,216 [   3725]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 12:56:27,216 [   3725]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 12:56:27,217 [   3726]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 12:56:27,217 [   3726]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 12:56:27,218 [   3727]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 12:56:27,218 [   3727]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 12:56:27,219 [   3728]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 12:56:27,219 [   3728]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 12:56:27,219 [   3728]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 12:56:27,219 [   3728]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 12:56:27,219 [   3728]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 12:56:27,219 [   3728]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 12:56:27,219 [   3728]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 12:56:27,220 [   3729]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 12:56:27,594 [   4103]   INFO - pl$FileIndexDataInitialization - Initialization done: 1429 
+2020-06-19 12:56:27,823 [   4332]   INFO - exImpl$StubIndexInitialization - Initialization done: 229 
+2020-06-19 12:56:29,803 [   6312]   INFO - s.RepoProgressIndicatorAdapter - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-06-19 12:56:29,806 [   6315]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-19 12:56:29,841 [   6350]   WARN - s.RepoProgressIndicatorAdapter - Failed to connect to host: https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-19 12:56:29,846 [   6355]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2020-06-19 12:56:29,847 [   6356]   WARN - s.RepoProgressIndicatorAdapter - Failed to connect to host: https://dl.google.com/android/repository/addons_list-2.xml 
+2020-06-19 12:56:29,849 [   6358]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2020-06-19 12:56:29,850 [   6359]   WARN - s.RepoProgressIndicatorAdapter - Failed to connect to host: https://dl.google.com/android/repository/addons_list-1.xml 
+2020-06-19 12:56:29,850 [   6359]   WARN - s.RepoProgressIndicatorAdapter - Failed to download any source lists! 
+2020-06-19 12:56:29,854 [   6363]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-06-19 12:56:29,856 [   6365]   WARN - s.RepoProgressIndicatorAdapter - IO exception while downloading manifest 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:607)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:56)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:376)
+	at com.android.tools.idea.sdk.StudioDownloader.lambda$doDownloadFully$2(StudioDownloader.java:197)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:518)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:500)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:56)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:350)
+	at com.android.tools.idea.sdk.StudioDownloader.doDownloadFully(StudioDownloader.java:193)
+	at com.android.tools.idea.sdk.StudioDownloader.downloadFully(StudioDownloader.java:133)
+	at com.android.tools.idea.sdk.StudioDownloader.downloadFully(StudioDownloader.java:250)
+	at com.android.tools.idea.sdk.StudioDownloader.downloadAndStream(StudioDownloader.java:123)
+	at com.android.repository.impl.manager.RemoteRepoLoaderImpl.lambda$fetchPackages$0(RemoteRepoLoaderImpl.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-19 12:56:30,853 [   7362]   WARN - s.RepoProgressIndicatorAdapter - Still waiting for package manifests to be fetched remotely. 
+2020-06-19 12:56:34,673 [  11182]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2020-06-19 12:56:45,446 [  21955]  ERROR - ted.ConsolidatedProgressStep$1 - SDK emulator directory is missing 
+com.android.tools.idea.welcome.install.WizardException: SDK emulator directory is missing
+	at com.android.tools.idea.welcome.install.CheckSdkOperation.perform(CheckSdkOperation.kt:42)
+	at com.android.tools.idea.welcome.install.CheckSdkOperation.perform(CheckSdkOperation.kt:37)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:69)
+	at com.android.tools.idea.welcome.install.InstallOperation$OperationChain.perform(InstallOperation.java:152)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:69)
+	at com.android.tools.idea.welcome.wizard.deprecated.InstallComponentsPath.runLongOperation(InstallComponentsPath.java:275)
+	at com.android.tools.idea.welcome.wizard.deprecated.ConsolidatedProgressStep.doLongRunningOperation(ConsolidatedProgressStep.java:78)
+	at com.android.tools.idea.welcome.wizard.deprecated.ConsolidatedProgressStep.access$000(ConsolidatedProgressStep.java:32)
+	at com.android.tools.idea.welcome.wizard.deprecated.ConsolidatedProgressStep$1.run(ConsolidatedProgressStep.java:58)
+	at com.android.tools.idea.welcome.wizard.deprecated.FirstRunWizardHost$LongRunningOperationWrapper.run(FirstRunWizardHost.java:440)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:888)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$2(CoreProgressManager.java:163)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:585)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:531)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:59)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:150)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.lambda$run$0(CoreProgressManager.java:402)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:221)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$4.run(CoreProgressManager.java:402)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:238)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-19 12:56:45,448 [  21957]  ERROR - ted.ConsolidatedProgressStep$1 - Android Studio 4.0  Build #AI-193.6911.18.40.6514223 
+2020-06-19 12:56:45,449 [  21958]  ERROR - ted.ConsolidatedProgressStep$1 - JDK: 1.8.0_242-release; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2020-06-19 12:56:45,449 [  21958]  ERROR - ted.ConsolidatedProgressStep$1 - OS: Windows 10 
+2020-06-19 12:56:45,461 [  21970]  ERROR - ted.ConsolidatedProgressStep$1 - Last Action:  
+2020-06-19 12:56:50,014 [  26523]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2020-06-19 12:56:51,185 [  27694]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 17 ms 
+2020-06-19 12:56:51,647 [  28156]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2020-06-19 12:56:51,647 [  28156]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-06-19 12:56:51,648 [  28157]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-06-19 12:56:51,650 [  28159]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 12:56:51,660 [  28169]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2020-06-19 12:56:51,661 [  28170]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-06-19 12:56:51,688 [  28197]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-06-19 12:56:51,688 [  28197]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-06-19 12:56:51,689 [  28198]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-06-19 12:56:51,693 [  28202]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-06-19 12:56:51,716 [  28225]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 12:56:55,432 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-06-19 12:56:55,514 [     82]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 64 ms 
+2020-06-19 12:56:55,559 [    127]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-193.6911.18.40.6514223, 20 May 2020 20:37) 
+2020-06-19 12:56:55,559 [    127]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-06-19 12:56:55,559 [    127]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_242-release-1644-b01 (JetBrains s.r.o) 
+2020-06-19 12:56:55,560 [    128]   INFO -        #com.intellij.idea.Main - JVM: 25.242-b01 (OpenJDK 64-Bit Server VM) 
+2020-06-19 12:56:55,560 [    128]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djna.nosys=true -Djna.boot.library.path= -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Djava.library.path=C:\Program Files\Android\Android Studio\jre\jre\bin;C:\Program Files\Android\Android Studio\jre\jre\bin\server -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio4.0 -XX:ErrorFile=C:\Users\Siddhant\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Siddhant\java_error_in_studio.hprof 
+2020-06-19 12:56:55,560 [    128]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-06-19 12:56:55,561 [    129]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-06-19 12:56:55,851 [    419]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@27fe5af8[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@158dea10 
+2020-06-19 12:56:55,916 [    484]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-06-19 12:56:56,411 [    979]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-groovy.xml 
+2020-06-19 12:56:56,417 [    985]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-detection-groovy.xml 
+2020-06-19 12:56:56,566 [   1134]   INFO - llij.ide.plugins.PluginManager - Plugin "Java" misses optional descriptor profiler-java.xml 
+2020-06-19 12:56:56,713 [   1281]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.4.0), App Links Assistant (0.1), ChangeReminder (193.6911.18.40.6514223), Compose (0.1.0-dev03), Configuration Script (193.6911.18.40.6514223), Copyright (193.6911.18.40.6514223), Coverage (193.6911.18.40.6514223), EditorConfig (193.6911.18.40.6514223), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git (193.6911.18.40.6514223), GitHub (193.6911.18.40.6514223), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (193.6911.18.40.6514223), Gradle-Java (193.6911.18.40.6514223), Groovy (193.6911.18.40.6514223), IDEA CORE (193.6911.18.40.6514223), IntelliLang (193.6911.18.40.6514223), JUnit (193.6911.18.40.6514223), Java (193.6911.18.40.6514223), Java Bytecode Decompiler (193.6911.18.40.6514223), Java IDE Customization (193.6911.18.40.6514223), Java Internationalization (193.6911.18.40.6514223), Java Stream Debugger (193.6911.18.40.6514223), Kotlin (1.3.72-release-Studio4.0-1), Layoutlib Native (1.0), Layoutlib Standard (1.0), Mercurial (193.6911.18.40.6514223), Properties (193.6911.18.40.6514223), Settings Repository (193.6911.18.40.6514223), Shell Script (193.6911.18.40.6514223), Smali Support (193.6911.18.40.6514223), Subversion (193.6911.18.40.6514223), Task Management (193.6911.18.40.6514223), Terminal (193.6911.18.40.6514223), Test Recorder (1.0), TestNG (193.6911.18.40.6514223), TextMate bundles (193.6911.18.40.6514223), YAML (193.6911.18.40.6514223) 
+2020-06-19 12:56:57,591 [   2159]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2020-06-19 12:56:57,622 [   2190]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-06-19 12:56:57,702 [   2270]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2020-06-19 12:56:57,801 [   2369]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-06-19 12:56:57,846 [   2414]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-06-19 12:56:57,887 [   2455]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-06-19 12:56:57,903 [   2471]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2020-06-19 12:56:57,946 [   2514]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-06-19 12:56:58,154 [   2722]   WARN - nSystem.impl.ActionManagerImpl - keymap "ReSharper" not found [Plugin: com.android.tools.ndk] 
+2020-06-19 12:56:58,747 [   3315]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 12:56:58,747 [   3315]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 12:56:58,748 [   3316]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 12:56:58,753 [   3321]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 12:56:58,754 [   3322]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 12:56:58,754 [   3322]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 12:56:58,754 [   3322]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 12:56:59,068 [   3636]   INFO - pl$FileIndexDataInitialization - Initialization done: 1252 
+2020-06-19 12:56:59,431 [   3999]   INFO - exImpl$StubIndexInitialization - Initialization done: 362 
+2020-06-19 12:57:01,673 [   6241]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-19 12:57:01,703 [   6271]   WARN - s.RepoProgressIndicatorAdapter - Failed to connect to host: https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-19 12:57:01,705 [   6273]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2020-06-19 12:57:01,706 [   6274]   WARN - s.RepoProgressIndicatorAdapter - Failed to connect to host: https://dl.google.com/android/repository/addons_list-2.xml 
+2020-06-19 12:57:01,708 [   6276]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2020-06-19 12:57:01,709 [   6277]   WARN - s.RepoProgressIndicatorAdapter - Failed to connect to host: https://dl.google.com/android/repository/addons_list-1.xml 
+2020-06-19 12:57:01,709 [   6277]   WARN - s.RepoProgressIndicatorAdapter - Failed to download any source lists! 
+2020-06-19 12:57:01,710 [   6278]   INFO - s.RepoProgressIndicatorAdapter - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-06-19 12:57:01,715 [   6283]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-06-19 12:57:01,718 [   6286]   WARN - s.RepoProgressIndicatorAdapter - IO exception while downloading manifest 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:352)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:607)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:56)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:376)
+	at com.android.tools.idea.sdk.StudioDownloader.lambda$doDownloadFully$2(StudioDownloader.java:197)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:518)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:500)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:56)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:350)
+	at com.android.tools.idea.sdk.StudioDownloader.doDownloadFully(StudioDownloader.java:193)
+	at com.android.tools.idea.sdk.StudioDownloader.downloadFully(StudioDownloader.java:133)
+	at com.android.tools.idea.sdk.StudioDownloader.downloadFully(StudioDownloader.java:250)
+	at com.android.tools.idea.sdk.StudioDownloader.downloadAndStream(StudioDownloader.java:123)
+	at com.android.repository.impl.manager.RemoteRepoLoaderImpl.lambda$fetchPackages$0(RemoteRepoLoaderImpl.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-19 12:57:02,715 [   7283]   WARN - s.RepoProgressIndicatorAdapter - Still waiting for package manifests to be fetched remotely. 
+2020-06-19 12:57:03,040 [   7608]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 12:57:03,040 [   7608]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 12:57:03,042 [   7610]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 12:57:03,042 [   7610]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 12:57:03,042 [   7610]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 12:57:03,042 [   7610]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 12:57:03,042 [   7610]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 12:57:08,010 [  12578]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2020-06-19 12:57:10,194 [  14762]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 16 ms 
+2020-06-19 12:57:10,627 [  15195]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2020-06-19 12:57:10,628 [  15196]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 12:57:10,628 [  15196]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-06-19 12:57:10,629 [  15197]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-06-19 12:57:10,638 [  15206]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2020-06-19 12:57:10,638 [  15206]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-06-19 12:57:10,659 [  15227]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-06-19 12:57:10,660 [  15228]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-06-19 12:57:10,660 [  15228]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-06-19 12:57:10,663 [  15231]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-06-19 12:57:10,668 [  15236]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 12:57:24,607 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-06-19 12:57:24,734 [    127]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 112 ms 
+2020-06-19 12:57:24,892 [    285]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-193.6911.18.40.6514223, 20 May 2020 20:37) 
+2020-06-19 12:57:24,892 [    285]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-06-19 12:57:24,892 [    285]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_242-release-1644-b01 (JetBrains s.r.o) 
+2020-06-19 12:57:24,892 [    285]   INFO -        #com.intellij.idea.Main - JVM: 25.242-b01 (OpenJDK 64-Bit Server VM) 
+2020-06-19 12:57:24,893 [    286]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djna.nosys=true -Djna.boot.library.path= -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Djava.library.path=C:\Program Files\Android\Android Studio\jre\jre\bin;C:\Program Files\Android\Android Studio\jre\jre\bin\server -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio4.0 -XX:ErrorFile=C:\Users\Siddhant\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Siddhant\java_error_in_studio.hprof 
+2020-06-19 12:57:24,895 [    288]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-06-19 12:57:24,898 [    291]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-06-19 12:57:25,205 [    598]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@12265780[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@2e4b1a35 
+2020-06-19 12:57:25,320 [    713]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-06-19 12:57:25,983 [   1376]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-groovy.xml 
+2020-06-19 12:57:25,985 [   1378]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-detection-groovy.xml 
+2020-06-19 12:57:26,180 [   1573]   INFO - llij.ide.plugins.PluginManager - Plugin "Java" misses optional descriptor profiler-java.xml 
+2020-06-19 12:57:26,368 [   1761]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.4.0), App Links Assistant (0.1), ChangeReminder (193.6911.18.40.6514223), Compose (0.1.0-dev03), Configuration Script (193.6911.18.40.6514223), Copyright (193.6911.18.40.6514223), Coverage (193.6911.18.40.6514223), EditorConfig (193.6911.18.40.6514223), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git (193.6911.18.40.6514223), GitHub (193.6911.18.40.6514223), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (193.6911.18.40.6514223), Gradle-Java (193.6911.18.40.6514223), Groovy (193.6911.18.40.6514223), IDEA CORE (193.6911.18.40.6514223), IntelliLang (193.6911.18.40.6514223), JUnit (193.6911.18.40.6514223), Java (193.6911.18.40.6514223), Java Bytecode Decompiler (193.6911.18.40.6514223), Java IDE Customization (193.6911.18.40.6514223), Java Internationalization (193.6911.18.40.6514223), Java Stream Debugger (193.6911.18.40.6514223), Kotlin (1.3.72-release-Studio4.0-1), Layoutlib Native (1.0), Layoutlib Standard (1.0), Mercurial (193.6911.18.40.6514223), Properties (193.6911.18.40.6514223), Settings Repository (193.6911.18.40.6514223), Shell Script (193.6911.18.40.6514223), Smali Support (193.6911.18.40.6514223), Subversion (193.6911.18.40.6514223), Task Management (193.6911.18.40.6514223), Terminal (193.6911.18.40.6514223), Test Recorder (1.0), TestNG (193.6911.18.40.6514223), TextMate bundles (193.6911.18.40.6514223), YAML (193.6911.18.40.6514223) 
+2020-06-19 12:57:27,484 [   2877]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2020-06-19 12:57:27,497 [   2890]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-06-19 12:57:27,599 [   2992]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2020-06-19 12:57:27,710 [   3103]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-06-19 12:57:27,731 [   3124]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-06-19 12:57:27,792 [   3185]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2020-06-19 12:57:27,845 [   3238]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-06-19 12:57:27,946 [   3339]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-06-19 12:57:28,140 [   3533]   WARN - nSystem.impl.ActionManagerImpl - keymap "ReSharper" not found [Plugin: com.android.tools.ndk] 
+2020-06-19 12:57:28,777 [   4170]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 12:57:28,779 [   4172]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 12:57:28,780 [   4173]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 12:57:28,780 [   4173]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 12:57:28,782 [   4175]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 12:57:28,782 [   4175]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 12:57:28,782 [   4175]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 12:57:28,783 [   4176]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-06-19 12:57:28,783 [   4176]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-06-19 12:57:28,783 [   4176]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-06-19 12:57:28,784 [   4177]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-06-19 12:57:28,784 [   4177]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-06-19 12:57:28,784 [   4177]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-06-19 12:57:28,784 [   4177]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-06-19 12:57:28,985 [   4378]   INFO - pl$FileIndexDataInitialization - Initialization done: 1194 
+2020-06-19 12:57:29,262 [   4655]   INFO - exImpl$StubIndexInitialization - Initialization done: 275 
+2020-06-19 12:57:29,892 [   5285]   INFO - s.RepoProgressIndicatorAdapter - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-06-19 12:57:29,903 [   5296]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2020-06-19 12:57:31,178 [   6571]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2020-06-19 12:57:31,181 [   6574]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-06-19 12:57:31,183 [   6576]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2020-06-19 12:57:31,184 [   6577]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2020-06-19 12:57:31,184 [   6577]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2020-06-19 12:57:31,186 [   6579]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2020-06-19 12:57:31,187 [   6580]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2020-06-19 12:57:31,189 [   6582]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2020-06-19 12:57:31,189 [   6582]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2020-06-19 12:57:31,191 [   6584]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2020-06-19 12:57:31,192 [   6585]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2020-06-19 12:57:39,314 [  14707]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2020-06-19 12:58:38,553 [  73946]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 23 ms, FileTypeManager took 19 ms 
+2020-06-19 12:59:15,500 [ 110893]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2020-06-19 13:00:12,794 [ 168187]   INFO - s.RepoProgressIndicatorAdapter - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-06-19 13:00:12,802 [ 168195]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2020-06-19 13:00:12,804 [ 168197]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2020-06-19 13:00:12,815 [ 168208]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-06-19 13:00:12,834 [ 168227]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2020-06-19 13:00:12,845 [ 168238]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2020-06-19 13:00:12,857 [ 168250]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2020-06-19 13:00:12,860 [ 168253]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2020-06-19 13:00:12,863 [ 168256]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2020-06-19 13:00:12,863 [ 168256]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2020-06-19 13:00:12,864 [ 168257]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2020-06-19 13:00:12,865 [ 168258]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2020-06-19 13:00:28,738 [ 184131]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2020-06-19 13:00:28,749 [ 184142]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-06-19 13:00:28,750 [ 184143]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-06-19 13:00:28,752 [ 184145]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-06-19 13:00:28,763 [ 184156]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2020-06-19 13:00:28,763 [ 184156]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-06-19 13:00:28,785 [ 184178]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-06-19 13:00:28,785 [ 184178]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-06-19 13:00:28,786 [ 184179]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-06-19 13:00:28,788 [ 184181]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-06-19 13:00:28,798 [ 184191]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-07-08 16:26:07,463 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2020-07-08 16:26:07,542 [     79]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 64 ms 
+2020-07-08 16:26:07,678 [    215]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 4; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@bf87b32[Running, parallelism = 3, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@1960021e 
+2020-07-08 16:26:07,706 [    243]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-193.6911.18.40.6514223, 20 May 2020 20:37) 
+2020-07-08 16:26:07,706 [    243]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2020-07-08 16:26:07,706 [    243]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_242-release-1644-b01 (JetBrains s.r.o) 
+2020-07-08 16:26:07,706 [    243]   INFO -        #com.intellij.idea.Main - JVM: 25.242-b01 (OpenJDK 64-Bit Server VM) 
+2020-07-08 16:26:07,706 [    243]   INFO -        #com.intellij.idea.Main - JVM Args: exit -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Djna.nosys=true -Djna.boot.library.path= -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Djava.library.path=C:\Program Files\Android\Android Studio\jre\jre\bin;C:\Program Files\Android\Android Studio\jre\jre\bin\server -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Dide.native.launcher=true -Didea.paths.selector=AndroidStudio4.0 -XX:ErrorFile=C:\Users\Siddhant\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\Siddhant\java_error_in_studio.hprof 
+2020-07-08 16:26:07,707 [    244]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2020-07-08 16:26:07,707 [    244]   INFO -        #com.intellij.idea.Main - charsets: JNU=Cp1252 file=Cp1252 
+2020-07-08 16:26:08,254 [    791]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2020-07-08 16:26:08,987 [   1524]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-groovy.xml 
+2020-07-08 16:26:08,989 [   1526]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-detection-groovy.xml 
+2020-07-08 16:26:09,303 [   1840]   INFO - llij.ide.plugins.PluginManager - Plugin "Java" misses optional descriptor profiler-java.xml 
+2020-07-08 16:26:09,439 [   1976]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.4.0), App Links Assistant (0.1), ChangeReminder (193.6911.18.40.6514223), Compose (0.1.0-dev03), Configuration Script (193.6911.18.40.6514223), Copyright (193.6911.18.40.6514223), Coverage (193.6911.18.40.6514223), EditorConfig (193.6911.18.40.6514223), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git (193.6911.18.40.6514223), GitHub (193.6911.18.40.6514223), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (193.6911.18.40.6514223), Gradle-Java (193.6911.18.40.6514223), Groovy (193.6911.18.40.6514223), IDEA CORE (193.6911.18.40.6514223), IntelliLang (193.6911.18.40.6514223), JUnit (193.6911.18.40.6514223), Java (193.6911.18.40.6514223), Java Bytecode Decompiler (193.6911.18.40.6514223), Java IDE Customization (193.6911.18.40.6514223), Java Internationalization (193.6911.18.40.6514223), Java Stream Debugger (193.6911.18.40.6514223), Kotlin (1.3.72-release-Studio4.0-1), Layoutlib Native (1.0), Layoutlib Standard (1.0), Mercurial (193.6911.18.40.6514223), Properties (193.6911.18.40.6514223), Settings Repository (193.6911.18.40.6514223), Shell Script (193.6911.18.40.6514223), Smali Support (193.6911.18.40.6514223), Subversion (193.6911.18.40.6514223), Task Management (193.6911.18.40.6514223), Terminal (193.6911.18.40.6514223), Test Recorder (1.0), TestNG (193.6911.18.40.6514223), TextMate bundles (193.6911.18.40.6514223), YAML (193.6911.18.40.6514223) 
+2020-07-08 16:26:11,103 [   3640]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2020-07-08 16:26:11,147 [   3684]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes 
+2020-07-08 16:26:11,386 [   3923]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2020-07-08 16:26:11,421 [   3958]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2020-07-08 16:26:11,513 [   4050]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2020-07-08 16:26:11,542 [   4079]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2020-07-08 16:26:11,601 [   4138]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=13, fontScale=1.0; restored: fontSize=13, fontScale=1.0 
+2020-07-08 16:26:11,615 [   4152]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2020-07-08 16:26:12,178 [   4715]   WARN - nSystem.impl.ActionManagerImpl - keymap "ReSharper" not found [Plugin: com.android.tools.ndk] 
+2020-07-08 16:26:13,078 [   5615]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-07-08 16:26:13,079 [   5616]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-07-08 16:26:13,080 [   5617]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-07-08 16:26:13,080 [   5617]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-07-08 16:26:13,082 [   5619]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-07-08 16:26:13,082 [   5619]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-07-08 16:26:13,082 [   5619]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-07-08 16:26:13,083 [   5620]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2020-07-08 16:26:13,083 [   5620]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2020-07-08 16:26:13,083 [   5620]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2020-07-08 16:26:13,084 [   5621]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2020-07-08 16:26:13,084 [   5621]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_HOME environment variable 
+2020-07-08 16:26:13,084 [   5621]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: ANDROID_SDK_ROOT environment variable 
+2020-07-08 16:26:13,084 [   5621]   INFO - .startup.AndroidSdkInitializer - Examined and not found a valid Android SDK path: Last SDK used by Android tools 
+2020-07-08 16:26:13,481 [   6018]   INFO - pl$FileIndexDataInitialization - Initialization done: 1880 
+2020-07-08 16:26:14,244 [   6781]   INFO - exImpl$StubIndexInitialization - Initialization done: 763 
+2020-07-08 16:26:14,820 [   7357]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2020-07-08 16:26:16,465 [   9002]   INFO - s.RepoProgressIndicatorAdapter - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-07-08 16:26:16,473 [   9010]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2020-07-08 16:26:16,476 [   9013]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2020-07-08 16:26:16,479 [   9016]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-07-08 16:26:16,481 [   9018]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2020-07-08 16:26:16,481 [   9018]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2020-07-08 16:26:16,484 [   9021]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2020-07-08 16:26:16,484 [   9021]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2020-07-08 16:26:16,486 [   9023]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2020-07-08 16:26:16,487 [   9024]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2020-07-08 16:26:16,488 [   9025]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2020-07-08 16:26:16,487 [   9024]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2020-07-08 16:26:17,951 [  10488]   INFO - dea.updater.SdkComponentSource - File C:\Users\Siddhant\.android\repositories.cfg could not be loaded. 
+2020-07-08 16:26:17,957 [  10494]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2020-07-08 16:26:17,959 [  10496]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-1.xml 
+2020-07-08 16:26:17,971 [  10508]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2020-07-08 16:26:17,971 [  10508]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2020-07-08 16:26:17,976 [  10513]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2020-07-08 16:26:17,978 [  10515]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2020-07-08 16:26:17,978 [  10515]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2020-07-08 16:26:17,981 [  10518]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2020-07-08 16:26:17,981 [  10518]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2020-07-08 16:26:17,985 [  10522]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2020-07-08 16:26:17,985 [  10522]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2020-07-08 16:26:45,496 [  38033]   INFO - rd.FirstRunWizardFrameProvider - Overriding welcome frame to be resizable 
+2020-07-08 16:26:57,215 [  49752]   INFO - rationStore.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 24 ms 
+2020-07-08 16:26:57,747 [  50284]   INFO - Types.impl.FileTypeManagerImpl - 0 auto-detected files. Detection took 0 ms 
+2020-07-08 16:26:57,747 [  50284]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2020-07-08 16:26:57,749 [  50286]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2020-07-08 16:26:57,755 [  50292]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2020-07-08 16:26:57,785 [  50322]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2020-07-08 16:26:57,786 [  50323]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2020-07-08 16:26:57,807 [  50344]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2020-07-08 16:26:57,807 [  50344]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2020-07-08 16:26:57,808 [  50345]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2020-07-08 16:26:57,811 [  50348]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2020-07-08 16:26:57,822 [  50359]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

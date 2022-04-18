@@ -1,0 +1,444 @@
+
+utf8proberchardistribution	compatlanghebrewmodel
+chardetectclilocators
+scriptsindexutilwheeldatabase
+markers	resources
+versionmetadatamanifest	compat
+distlib
+tarfile	sysconfig	shutilmisc
+exceptions	_backport_versionfallback
+msgpack_collections
+exceptions	fieldsresponse
+connectionpoolmanagerconnectionpoolfilepost
+request
+urllib3queue
+connectionssl_retryresponsewait
+timeouturl
+requestntlmpool_appengine_environsocks
+contribsecuretransport	pyopensslbindingsutil	low_level_securetransportsixpackages	appenginemakefile	backports_implementationssl_match_hostnameansi
+wintermansitowin32
+initialisewin32
+_tokenizer	_utils	_ihatexmlcolorama	constants
+serializerhtml5libpy_basehtml5parser	datrie_trie	sanitizer_inputstreamalphabeticalattributeslint
+whitespaceinject_meta_charset
+filtersdom	genshietree
+etree_lxmlbasetreewalkersbasesaxtreeadapters	genshidom
+etree_lxmletreetreebuilderslinklockfilesymlinklockfilesqlitelockfilepidlockfilebasemkdirlockfilelockfilebar
+counter
+helpers
+spinnerprogress
+exceptionscerts_internal_utilsadapters
+cookiesoptionaltagspackagessessionsstatus_codeshelputilshooks	models__version__	compatapiauthrequests
+structuresutilsrequirements
+specifiers
+markers
+_compat
+version	packaging	__about___cmdfilewrapper
+controller	serialize
+heuristics
+adapter	compat_structurescachecontrolredis_cache
+file_cache	cachestestscachex_user_defined
+wrapper
+py31compatmklabelswebencodings	pyprojectpkg_resources	labels
+exceptionsdownload	locations
+resolveindex	build_envwheelcache
+pep425tagsconfiguration	_internalstatus_codes
+cmdoptionsmain_parserautocompletioncli	parserbase_commandreq_trackerreq_filereq_installconstructors
+req_setreq_uninstallreq	mercurialgit	bazaar
+subversionvcstemp_dirglibcui	packagingsetuptools_buildoutdated	typing
+appdirs
+loggingencodingdeprecation	models	hashesmiscutilsformat_control	compatlinkindex	candidate	modelsdownload
+completionshowhelp	searchcheck	uninstalllistwheel
+filesystemconfigurationhash	freezecommandscheck
+prepare
+operations
+install	freezeeasy_install-script
+pip-scriptpip3-scripteasy_install-3.8-scriptpip3.8-script	externsixutils
+_compat
+markers
+version	packaging	__about___structuresrequirements
+_vendor
+specifiers	pyparsingtestaliassdist	rotate	setopt	upload
+develop
+install
+commandbuild_pyegg_inforegister	bdist_eggsaveopts	bdist_rpm	build_ext	dist_info
+build_clib
+py36compatinstall_libupload_docseasy_installbdist_wininstinstall_scriptsinstall_egg_infodistglobmsvcglibcwheel	config	launch	monkey
+depends
+sandbox
+version
+setuptools	extensiondep_util
+build_meta
+lib2to3_ex
+namespaces
+pep425tags
+py27compat
+py31compat
+py33compat
+site-patchssl_supportarchive_utilpackage_indexunicode_utilswindows_support_deprecation_warning	externsixutils
+_compat
+markers
+version	packaging	__about__
+specifiers_structuresrequirements
+appdirs
+_vendor	pyparsingpkg_resources
+py31compateasy_install_xxsubinterpreters
+_locale	parser_lzma_abc_md5	_heapq
+marshalzlib_weakref_csv
+_codecs_jpbinasciimath
+_lsprof
+_codecs_kr_hashlibmmaparray	_warningsgc
+_codecs_cn_srecmath
+_thread_statistics_ctypes_test_overlapped	winreg
+_blake2builtinsnt_sha1
+_bisect_imp_json
+audioop
+_struct_sha3time
+_codecs_hk_elementtreeerrno	xxsubtype
+_sha256sys
+_random
+_ctypes	msvcrt_bz2	_queue	itertools_tracemalloc	_operator
+_codecs_tw
+_functools
+_pickle_multiprocessing_stat	_symtable	atexit
+_winapi
+_sha512
+_codecs_collections
+_string_ast
+_signal_codecs_iso2022_contextvars_asyncio_io
+_opcode_decimalfaulthandler_multibytecodec_msi	_datetime
+pyexpat
+_socket	select_ssl_sqlite3_tkinterwinsound	_testcapi_testbufferunicodedata_testconsole_testmultiphase_testimportmultiplesorting arraylist func menusidtaking list as inputalgo
+operationscheckcommands	freeze
+preparehash	freezeconfiguration
+install	uninstall	searchwheelhelplistshow
+completiondownload	models	candidatecheckindexlinkformat_controlutils
+filesystem	compatmisc	hashes	modelsencodingdeprecation
+logging	typingoutdated
+appdirssetuptools_build	packagingglibctemp_diruivcs
+subversion	bazaar	mercurialgitreqreq_uninstall
+req_setconstructorsreq_installreq_filereq_trackerbase_commandcliautocompletionmain_parser	parser
+cmdoptionsstatus_codes	_internalcacheconfiguration
+pep425tags	build_envwheelindex
+resolve	locations
+exceptions	pyprojectdownloadpkg_resources
+py31compatwebencodingsmklabels	labelsx_user_definedtests	caches
+file_cacheredis_cache
+wrappercachecontrol	compatcache
+adapter
+heuristics	serializefilewrapper_cmd
+controller	__about__	packaging_structures
+_compat
+versionrequirementsutils
+markers
+specifiers
+structuresrequests	compatapiauth__version__	modelshooksutilshelpstatus_codespackagessessions
+cookies_internal_utils
+exceptionsadapterscertsprogress
+spinner
+counterbar
+helpersmkdirlockfilepidlockfilesymlinklockfilelockfilesqlitelockfilelinklockfiletreebuildersetreebasedomtreeadapters
+etree_lxml	genshisaxtreewalkersbaseetree
+etree_lxmldom
+filtersinject_meta_charsetbaseoptionaltags
+whitespacealphabeticalattributeslint	sanitizer	genshi_trie	datrie_basepyhtml5libhtml5parser
+serializer	constants	_utils_inputstream	_ihatexmlcolorama
+_tokenizer
+initialisewin32
+wintermssl_match_hostnameansi	backportsansitowin32_implementationmakefilepackagessix_securetransport	low_levelbindings	pyopenssl
+contrib	appenginesocksntlmpool_appengine_environutilsecuretransport
+requestwaitresponseurl
+timeoutssl_retryqueue
+urllib3
+requestfilepostconnectionpoolpoolmanager
+connectionresponse	fields
+connection
+exceptions_collections
+msgpackfallback_version
+exceptions	_backportmisc	shutil	sysconfig
+tarfile
+distlibmanifestmetadata
+version
+markers	resourceswheelutil
+scriptslocatorscli	compat
+chardetectlanghebrewmodel	compat
+utf8proberchardistributioncodingstatemachineuniversaldetectormbcsgroupproberlangcyrillicmodeleuckrprober	euctwfreqescsmbig5freqlangthaimodelcharsetprobersbcharsetproberlangturkishmodellanggreekmodeleucjpprober
+sjisproberdatabaselanghungarianmodel
+big5prober	escprober
+chardeteuctwprobercharsetgroupproberlatin1probercp949prober
+versionmbcharsetproberhebrewproberlangbulgarianmodel	jpcntxgb2312proberenums	euckrfreq
+jisfreq	mbcssmsbcsgroupprobercore
+certifi
+gb2312freq__main__core	pytoml	writerutilstest	parser	pep517	compat_in_processenvbuildcheckwrapperscolorlogbuildpackage_datacoreidna	compat	intrangescodec	uts46dataidnadata	ipaddress
+appdirs	pyparsingretryingsixpip	distro__main__
+_vendorindexalgo_msi_multibytecodecfaulthandler_decimal
+_opcode_io_contextvars
+_signal_codecs_iso2022_ast_asyncio	_datetime
+_string
+_codecs_collections_testimportmultiple
+_sha512	atexit
+_winapi_multiprocessing	_symtable_stat
+_pickle
+_thread
+_functools
+_codecs_tw	_operator_tracemalloc_tkinter	itertools_testmultiphase_bz2	msvcrt	_queue
+_struct
+_ctypes
+pyexpat
+_random
+_socket_sqlite3sys_ssl
+_sha256	xxsubtypeerrno_elementtree
+_codecs_hktime	select_sha3
+audioop_imp_json
+_bisectbuiltins
+_blake2nt_overlapped_ctypes_test_statisticsunicodedatacmath_sre	winreg	_warningsgc
+_codecs_cnarraymmap	_testcapi_hashlib
+_lsprof_testbuffer
+_codecs_kr_sha1mathbinascii
+_codecs_jpwinsound_csvzlib_weakref_testconsole
+marshal	_heapq_md5_abc_xxsubinterpreters
+_locale_lzma	parserpip3.8-scripteasy_install-3.8-scriptpip3-script
+pip-scripteasy_install-script	externsixutils
+_compat
+markers
+version	packaging	__about__
+specifiers_structuresrequirements
+_vendortestalias	pyparsingsdist	rotate	setopt	upload
+develop
+install
+commandbuild_pyegg_inforegistersaveopts	bdist_egg	bdist_rpm	dist_info	build_ext
+build_clib
+py36compatinstall_libupload_docseasy_installbdist_wininstinstall_scriptsinstall_egg_infodistglobglibcmsvcwheel	config	launch	monkey
+depends
+sandbox
+version
+setuptoolsdep_util	extension
+build_meta
+lib2to3_ex
+namespaces
+pep425tags
+py27compat
+py31compat
+py33compat
+site-patchssl_supportarchive_utilpackage_indexunicode_utilswindows_support_deprecation_warning	externsixutils
+_compat
+markers
+version	packaging	__about__
+specifiers_structuresrequirements
+_vendor	pyparsingpkg_resources
+appdirs
+py31compateasy_installQ1Q2Q3Q4Q5Q1Q5Q2Q3Q4Q1Q2Q3euctwprobercharsetgroupprober	escprober
+chardet	mbcssmlatin1probercp949prober
+versionhebrewprobermbcharsetprober	jpcntx	euckrfreqlangbulgarianmodelgb2312proberenums
+jisfreq
+gb2312freqcoresbcsgroupprober
+certifi__main__core	writer	pytomlutilstest	parser
+big5prober	pep517
+sjisproberlanghungarianmodeleucjpproberlanggreekmodelsbcharsetproberlangturkishmodelcharsetproberbig5freqlangthaimodelescsm	euctwfreqeuckrprobermbcsgroupproberlangcyrillicmodelcodingstatemachineuniversaldetector
+utf8prober	compatchardistributionlanghebrewmodel
+chardetectclilocators
+scriptsindexwheeldatabase
+markersutil	resources
+versionmetadata	compatmanifest
+distlib	sysconfig	shutilmisc
+tarfile	_backport_version
+exceptionsfallback
+msgpack_collections
+exceptions	fieldsresponse
+connectionpoolmanagerconnectionpool
+request
+urllib3filepostssl_retryqueue
+connectionurlresponse
+timeout
+requestutilwaitsocksntlmpool
+contrib_appengine_environsecuretransport	appengine_securetransportbindings	pyopenssl	low_levelsixpackagesmakefile	backportsssl_match_hostnameansitowin32_implementationansi
+wintermcolorama
+initialise
+_tokenizer	_ihatexmlwin32	_utils	constantshtml5lib_inputstreamhtml5parser
+serializerpy_base	datrie_trielint	sanitizeralphabeticalattributes
+whitespaceoptionaltagsbaseinject_meta_charset
+filters	genshidom
+etree_lxmlbasetreewalkersetreesax	genshitreeadaptersdombaseetree
+etree_lxmltreebuilderslinklockfilesymlinklockfilesqlitelockfilepidlockfilelockfilemkdirlockfile
+helpersbar
+counter
+spinnerprogressadapterscerts
+exceptions_internal_utilspackages
+cookiessessionsstatus_codeshooksutils	models__version__authapi	compatrequests
+structureshelp
+markersutils
+specifiers
+versionrequirements
+_compat_structures	packaging
+controller	__about___cmdfilewrapper
+heuristics	serialize
+adapter	compatcachecontrol
+wrapperredis_cache
+file_cache	cachestestsx_user_definedmklabelscachewebencodings
+py31compat	labelspkg_resourcesdownload
+exceptions	locations
+resolveindexwheel	compat_in_process	build_envenvbuild	pyprojectcheck
+pep425tagswrapperscolorlogconfigurationbuildpackage_datacachecore	_internalidna	compatstatus_codes	parser
+cmdoptionsmain_parser	intrangesautocompletioncodeccli	uts46database_commandreq_trackeridnadatareq_filereq_installconstructors
+req_setreq_uninstallreqgit	mercurial	bazaar
+subversion
+appdirsvcsretrying	pyparsing	ipaddressuitemp_dirsix
+_vendorglibcsetuptools_build	packaging
+appdirs	distrooutdated	typing
+loggingencodingdeprecation	models	hashesmiscpip
+filesystem	compatutils__main__format_controllinkindex	candidate	modelsdownload
+completionQ5Q1showlisthelpQ2Q4wheelQ3	search	uninstallcheck
+installconfigurationhashcommandsQ1	freezecheck
+operations
+prepare	freezealgoQ2Q3pip3-scripteasy_install-3.8-scriptpip3.8-script
+pip-scripteasy_install-script	externsixutils
+_compat
+markers
+version	packaging	__about__
+specifiers_structuresrequirements
+_vendor	pyparsingtestaliassdist	rotate	setopt	upload
+develop
+install
+commandbuild_pyegg_inforegistersaveopts	bdist_egg	bdist_rpm	build_ext	dist_info
+build_clib
+py36compatinstall_libupload_docseasy_installbdist_wininstinstall_scriptsinstall_egg_infodistglobmsvcglibcwheel	config	launch	monkey
+depends
+sandbox
+version
+setuptoolsdep_util	extension
+build_meta
+lib2to3_ex
+namespaces
+pep425tags
+py27compat
+py31compat
+py33compat
+site-patchssl_supportarchive_utilpackage_indexunicode_utilswindows_support	externsix_deprecation_warningutils
+_compat
+markers
+version	packaging	__about__
+specifiers_structuresrequirements
+appdirs
+_vendor	pyparsingpkg_resources
+py31compateasy_installQ5Q1Q2Q4Q3Q2Q3Q5Q4Q5Q4Q1Q2Q4Q1Q2Q3Q4Q5Q1Q2Q3Q4Q5Q1Q2Q4algoQ1Q3Q4Q1Q1 Using instanceQ1 Using instanceQ3Q2Q3Q4Q5Week5 TkinterQ5Q2Q3Q4Week5 TkinterQ5Q1Q2Q4Q3Q5Q1Q2Q4Week4 TkinterQ3
+tkinter	sqlite
+contribsecuretransport	appengine	pyopensslsocks_appengine_environntlmpoolutil
+requestwait
+timeoutresponseurlretryssl_
+connectionqueue
+urllib3
+requestfilepostconnectionpoolpoolmanager
+connectionresponse	fields
+exceptions
+msgpackfallback_version
+exceptions_collections	_backportmisc	shutil	sysconfig
+tarfile
+distlibmanifest	compatmetadata
+version	resources
+markersdatabasewheelutilindexlocators
+scriptscli
+chardetectlanghebrewmodel	compatchardistribution
+utf8proberuniversaldetectorcodingstatemachinelangcyrillicmodelmbcsgroupprobereuckrprober	euctwfreqescsmbig5freqlangthaimodelcharsetproberlangturkishmodeleucjpprober
+sjisprobersbcharsetproberlanghungarianmodellanggreekmodel
+big5prober	escprober
+chardetcharsetgroupprobereuctwprober	mbcssmlatin1probercp949proberhebrewprober
+versionmbcharsetproberlangbulgarianmodel	jpcntx	euckrfreqgb2312proberenums
+jisfreq
+gb2312freqsbcsgroupprobercore	freeze
+operations
+certifi
+prepare__main__checkcorecommands	freeze	pytoml	writerhashutilsconfigurationtest
+install	parser	uninstall	pep517check	compat	search_in_processwheelenvbuildhelpchecklistwrappersshowcolorlog
+completionbuilddownloadpackage_data	modelscore	candidateidnaindex	compatlinkformat_control	intranges	uts46datautilscodec
+filesystemidnadata	compatmisc	hashes	modelsencodingdeprecation
+logging	ipaddress	typingoutdated
+appdirs
+appdirssetuptools_build	pyparsing	packagingretryingglibctemp_dirsixui
+_vendorvcs
+subversion	bazaar	distro	mercurialgitreqreq_uninstall
+req_setconstructorsreq_installreq_filereq_trackerbase_commandcliautocompletionmain_parser	parser
+cmdoptionsstatus_codes	_internalcacheconfiguration
+pep425tags	build_envwheelindex
+resolve	locations
+exceptions	pyprojectdownloadpkg_resources
+py31compatmklabelswebencodingstestsx_user_defined	caches	labels
+file_cachecachecontrol
+wrapper	compat
+adapterredis_cachecache
+heuristics	serializefilewrapper_cmd	__about__
+controller	packaging_structures
+_compat
+versionrequirementsutils
+markers
+structuresrequests
+specifiers	compatapi__version__auth	modelshooksutilshelpstatus_codespackagessessions__main__
+cookies_internal_utils
+exceptionsadapterscertsprogress
+spinner
+counterbar
+helpersmkdirlockfilelockfilepidlockfilesymlinklockfilesqlitelockfilelinklockfiletreebuildersbaseetree
+etree_lxmltreeadapters	genshidomtreewalkersbaseetree
+etree_lxml	genshidom
+filtersinject_meta_charsetbase
+whitespaceoptionaltagsalphabeticalattributeslint_trie	sanitizerpip	datrie_basepyhtml5libhtml5parsersax	_utils
+serializer	constants_inputstream	_ihatexmlcolorama
+_tokenizer
+initialise
+wintermansitowin32ansissl_match_hostname	backportspackagesmakefile_securetransport_implementationsix	low_levelwin32bindings	externsixutils
+_compat
+markers
+version	packaging	__about__
+specifiers_structuresrequirements
+_vendor	pyparsingtestaliassdist	rotate	setopt	upload
+develop
+install
+commandbuild_pyegg_inforegistersaveopts	bdist_egg	bdist_rpm	build_ext	dist_info
+build_clib
+py36compatinstall_libupload_docseasy_installbdist_wininstinstall_scriptsinstall_egg_infodistglobmsvcglibcwheel	config	launch	monkey
+depends
+sandbox
+version
+setuptoolsdep_util	extension
+build_meta
+lib2to3_ex
+namespaces
+pep425tags
+py27compat
+py31compat
+py33compat
+site-patchssl_supportarchive_utilpackage_indexunicode_utilswindows_support_deprecation_warning	externsixutils
+_compat
+markers
+version	packaging	__about__
+specifiers_structuresrequirements
+appdirs
+_vendor	pyparsingpkg_resources
+py31compateasy_installpip3-scriptpip3.8-scripteasy_install-3.8-script
+pip-scripteasy_install-script_msi_multibytecodecfaulthandler
+_opcode_decimal_io_asyncio_codecs_iso2022_contextvars
+_signal
+_string	_datetime_ast_collections
+_codecs
+_sha512
+_winapi	atexit	_symtable_stat_multiprocessing
+_pickle
+_functools
+_codecs_tw	_operator_tracemalloc	itertools	_queue_bz2	msvcrt
+_ctypes
+_random
+_socketsys
+_sha256	xxsubtypeerrno_elementtreetime
+_codecs_hk_sha3
+_struct
+audioop_json_imp
+_bisect_sha1ntbuiltins
+_blake2_overlapped_ctypes_test_statistics
+_threadcmath	winreg_sre
+_codecs_cngc	_warningsarraymmap_hashlib
+_codecs_kr
+_lsprofbinasciimath
+_codecs_jp_csv_weakrefzlib
+marshal	_heapq_md5_abc_lzma
+_locale_xxsubinterpreters	parser_testconsole_ssl_testbuffer_sqlite3	_testcapi_tkinter
+pyexpat_testimportmultiple	selectunicodedatawinsound_testmultiphase%"RA1911031010054_App_modlepractical
+answer2UPE	UPE Q1	UPE Q2

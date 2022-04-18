@@ -1,0 +1,20 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1920.1080@120dpi" x="689" y="133" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080@120dpi" x="961" y="456" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080@120dpi" x="581" y="294" />
+    <location key="SettingsEditor.0.0.1920.1080@120dpi" x="503" y="39" />
+    <location key="#Inspections.0.0.1920.1080@120dpi" x="451" y="88" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080@120dpi" x="681" y="269" />
+    <location key="search.everywhere.popup.0.0.1920.1080@120dpi" x="539" y="181" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080@120dpi" width="1893" height="260" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080@120dpi" width="1893" height="260" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080@120dpi" width="1893" height="260" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080@120dpi" width="1893" height="260" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080@120dpi" width="1893" height="320" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080@120dpi" width="1893" height="320" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080@120dpi" width="1893" height="320" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080@120dpi" width="1893" height="320" />
+    <size key="search.everywhere.popup.0.0.1920.1080@120dpi" width="840" height="850" />
+  </component>
+</application>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="PythonTestConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <file path="G:\Python\.idea\Python.iml" timestamp="1589735500997" />
+    <file path="G:\Python\.idea\misc.xml" timestamp="1589735501100" />
+    <file path="G:\Python\.idea\modules.xml" timestamp="1589735501146" />
+    <file path="G:\Python\.idea\workspace.xml" timestamp="1611409512382" />
+  </project-files>
+</conversion>
+

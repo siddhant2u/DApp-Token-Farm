@@ -1,0 +1,498 @@
+{
+  "{\"filename\":\"C:/Users/Siddhant/Desktop/meme/test/meme.test.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/Siddhant/Desktop/meme/test\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "asyncToGenerator"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/Siddhant/Desktop/meme/test/meme.test.js",
+      "filenameRelative": "C:/Users/Siddhant/Desktop/meme/test/meme.test.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "meme.test.js",
+      "sourceFileName": "meme.test.js",
+      "sourceRoot": "C:/Users/Siddhant/Desktop/meme/test",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/Siddhant/Desktop/meme/test",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "meme.test"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nvar _require = require('chai'),\n    assert = _require.assert;\n\nvar Meme = artifacts.require(\"Meme\");\n\nrequire('chai').use(require('chai-as-promised')).should();\n\ncontract('Meme', function (accounts) {\n    var meme = void 0;\n\n    before(_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {\n        return regeneratorRuntime.wrap(function _callee$(_context) {\n            while (1) {\n                switch (_context.prev = _context.next) {\n                    case 0:\n                        _context.next = 2;\n                        return Meme.deployed();\n\n                    case 2:\n                        meme = _context.sent;\n\n                    case 3:\n                    case 'end':\n                        return _context.stop();\n                }\n            }\n        }, _callee, undefined);\n    })));\n\n    describe('deployment', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {\n        return regeneratorRuntime.wrap(function _callee3$(_context3) {\n            while (1) {\n                switch (_context3.prev = _context3.next) {\n                    case 0:\n                        it('deploys successfully', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {\n                            var address;\n                            return regeneratorRuntime.wrap(function _callee2$(_context2) {\n                                while (1) {\n                                    switch (_context2.prev = _context2.next) {\n                                        case 0:\n                                            address = meme.address;\n\n                                            assert.notEqual(address, 0x0);\n                                            assert.notEqual(address, '');\n                                            assert.notEqual(address, null);\n                                            assert.notEqual(address, undefined);\n\n                                        case 5:\n                                        case 'end':\n                                            return _context2.stop();\n                                    }\n                                }\n                            }, _callee2, undefined);\n                        })));\n\n                    case 1:\n                    case 'end':\n                        return _context3.stop();\n                }\n            }\n        }, _callee3, undefined);\n    })));\n\n    describe('storage', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {\n        return regeneratorRuntime.wrap(function _callee5$(_context5) {\n            while (1) {\n                switch (_context5.prev = _context5.next) {\n                    case 0:\n                        it('updates the memeHash', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {\n                            var memeHash, result;\n                            return regeneratorRuntime.wrap(function _callee4$(_context4) {\n                                while (1) {\n                                    switch (_context4.prev = _context4.next) {\n                                        case 0:\n                                            memeHash = void 0;\n\n                                            memeHash = 'abc123';\n                                            _context4.next = 4;\n                                            return meme.set(memeHash);\n\n                                        case 4:\n                                            _context4.next = 6;\n                                            return meme.get();\n\n                                        case 6:\n                                            result = _context4.sent;\n\n                                            assert.equal(result, memeHash);\n\n                                        case 8:\n                                        case 'end':\n                                            return _context4.stop();\n                                    }\n                                }\n                            }, _callee4, undefined);\n                        })));\n\n                    case 1:\n                    case 'end':\n                        return _context5.stop();\n                }\n            }\n        }, _callee5, undefined);\n    })));\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lbWUudGVzdC5qcyJdLCJuYW1lcyI6WyJyZXF1aXJlIiwiYXNzZXJ0IiwiTWVtZSIsImFydGlmYWN0cyIsInVzZSIsInNob3VsZCIsImNvbnRyYWN0IiwiYWNjb3VudHMiLCJtZW1lIiwiYmVmb3JlIiwiZGVwbG95ZWQiLCJkZXNjcmliZSIsIml0IiwiYWRkcmVzcyIsIm5vdEVxdWFsIiwidW5kZWZpbmVkIiwibWVtZUhhc2giLCJzZXQiLCJnZXQiLCJyZXN1bHQiLCJlcXVhbCJdLCJtYXBwaW5ncyI6Ijs7OztlQUFtQkEsUUFBUSxNQUFSLEM7SUFBWEMsTSxZQUFBQSxNOztBQUVSLElBQU1DLE9BQU9DLFVBQVVILE9BQVYsQ0FBa0IsTUFBbEIsQ0FBYjs7QUFFQUEsUUFBUSxNQUFSLEVBQ0tJLEdBREwsQ0FDU0osUUFBUSxrQkFBUixDQURULEVBRUtLLE1BRkw7O0FBSUFDLFNBQVMsTUFBVCxFQUFpQixVQUFDQyxRQUFELEVBQWM7QUFDM0IsUUFBSUMsYUFBSjs7QUFFQUMsbUVBQU87QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsK0JBQ1VQLEtBQUtRLFFBQUwsRUFEVjs7QUFBQTtBQUNIRiw0QkFERzs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxLQUFQOztBQUlBRyxhQUFTLFlBQVQsMERBQXVCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDbkJDLDJCQUFHLHNCQUFILDBEQUEyQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFDakJDLG1EQURpQixHQUNQTCxLQUFLSyxPQURFOztBQUV2QlosbURBQU9hLFFBQVAsQ0FBZ0JELE9BQWhCLEVBQXlCLEdBQXpCO0FBQ0FaLG1EQUFPYSxRQUFQLENBQWdCRCxPQUFoQixFQUF5QixFQUF6QjtBQUNBWixtREFBT2EsUUFBUCxDQUFnQkQsT0FBaEIsRUFBeUIsSUFBekI7QUFDQVosbURBQU9hLFFBQVAsQ0FBZ0JELE9BQWhCLEVBQXlCRSxTQUF6Qjs7QUFMdUI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEseUJBQTNCOztBQURtQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxLQUF2Qjs7QUFVQUosYUFBUyxTQUFULDBEQUFvQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ2hCQywyQkFBRyxzQkFBSCwwREFBMkI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQ25CSSxvREFEbUI7O0FBRXZCQSx1REFBVyxRQUFYO0FBRnVCO0FBQUEsbURBR2pCUixLQUFLUyxHQUFMLENBQVNELFFBQVQsQ0FIaUI7O0FBQUE7QUFBQTtBQUFBLG1EQUlGUixLQUFLVSxHQUFMLEVBSkU7O0FBQUE7QUFJakJDLGtEQUppQjs7QUFLdkJsQixtREFBT21CLEtBQVAsQ0FBYUQsTUFBYixFQUFxQkgsUUFBckI7O0FBTHVCO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLHlCQUEzQjs7QUFEZ0I7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsS0FBcEI7QUFTSCxDQTFCRCIsImZpbGUiOiJtZW1lLnRlc3QuanMiLCJzb3VyY2VSb290IjoiQzovVXNlcnMvU2lkZGhhbnQvRGVza3RvcC9tZW1lL3Rlc3QiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCB7IGFzc2VydCB9ID0gcmVxdWlyZSgnY2hhaScpO1xyXG5cclxuY29uc3QgTWVtZSA9IGFydGlmYWN0cy5yZXF1aXJlKFwiTWVtZVwiKTtcclxuXHJcbnJlcXVpcmUoJ2NoYWknKVxyXG4gICAgLnVzZShyZXF1aXJlKCdjaGFpLWFzLXByb21pc2VkJykpXHJcbiAgICAuc2hvdWxkKClcclxuXHJcbmNvbnRyYWN0KCdNZW1lJywgKGFjY291bnRzKSA9PiB7XHJcbiAgICBsZXQgbWVtZVxyXG5cclxuICAgIGJlZm9yZShhc3luYyAoKSA9PiB7XHJcbiAgICAgICAgbWVtZSA9IGF3YWl0IE1lbWUuZGVwbG95ZWQoKVxyXG4gICAgfSlcclxuXHJcbiAgICBkZXNjcmliZSgnZGVwbG95bWVudCcsIGFzeW5jICgpID0+IHtcclxuICAgICAgICBpdCgnZGVwbG95cyBzdWNjZXNzZnVsbHknLCBhc3luYyAoKSA9PiB7XHJcbiAgICAgICAgICAgIGNvbnN0IGFkZHJlc3MgPSBtZW1lLmFkZHJlc3NcclxuICAgICAgICAgICAgYXNzZXJ0Lm5vdEVxdWFsKGFkZHJlc3MsIDB4MClcclxuICAgICAgICAgICAgYXNzZXJ0Lm5vdEVxdWFsKGFkZHJlc3MsICcnKVxyXG4gICAgICAgICAgICBhc3NlcnQubm90RXF1YWwoYWRkcmVzcywgbnVsbClcclxuICAgICAgICAgICAgYXNzZXJ0Lm5vdEVxdWFsKGFkZHJlc3MsIHVuZGVmaW5lZClcclxuICAgICAgICB9KSAgICAgXHJcbiAgICB9KVxyXG5cclxuICAgIGRlc2NyaWJlKCdzdG9yYWdlJywgYXN5bmMgKCkgPT4ge1xyXG4gICAgICAgIGl0KCd1cGRhdGVzIHRoZSBtZW1lSGFzaCcsIGFzeW5jICgpID0+IHtcclxuICAgICAgICAgICAgbGV0IG1lbWVIYXNoIFxyXG4gICAgICAgICAgICBtZW1lSGFzaCA9ICdhYmMxMjMnXHJcbiAgICAgICAgICAgIGF3YWl0IG1lbWUuc2V0KG1lbWVIYXNoKVxyXG4gICAgICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBtZW1lLmdldCgpXHJcbiAgICAgICAgICAgIGFzc2VydC5lcXVhbChyZXN1bHQsIG1lbWVIYXNoKVxyXG4gICAgICAgIH0pXHJcbiAgICB9KVxyXG59KSJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "meme.test.js"
+      ],
+      "names": [
+        "require",
+        "assert",
+        "Meme",
+        "artifacts",
+        "use",
+        "should",
+        "contract",
+        "accounts",
+        "meme",
+        "before",
+        "deployed",
+        "describe",
+        "it",
+        "address",
+        "notEqual",
+        "undefined",
+        "memeHash",
+        "set",
+        "get",
+        "result",
+        "equal"
+      ],
+      "mappings": ";;;;eAAmBA,QAAQ,MAAR,C;IAAXC,M,YAAAA,M;;AAER,IAAMC,OAAOC,UAAUH,OAAV,CAAkB,MAAlB,CAAb;;AAEAA,QAAQ,MAAR,EACKI,GADL,CACSJ,QAAQ,kBAAR,CADT,EAEKK,MAFL;;AAIAC,SAAS,MAAT,EAAiB,UAACC,QAAD,EAAc;AAC3B,QAAIC,aAAJ;;AAEAC,mEAAO;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,+BACUP,KAAKQ,QAAL,EADV;;AAAA;AACHF,4BADG;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAAP;;AAIAG,aAAS,YAAT,0DAAuB;AAAA;AAAA;AAAA;AAAA;AACnBC,2BAAG,sBAAH,0DAA2B;AAAA;AAAA;AAAA;AAAA;AAAA;AACjBC,mDADiB,GACPL,KAAKK,OADE;;AAEvBZ,mDAAOa,QAAP,CAAgBD,OAAhB,EAAyB,GAAzB;AACAZ,mDAAOa,QAAP,CAAgBD,OAAhB,EAAyB,EAAzB;AACAZ,mDAAOa,QAAP,CAAgBD,OAAhB,EAAyB,IAAzB;AACAZ,mDAAOa,QAAP,CAAgBD,OAAhB,EAAyBE,SAAzB;;AALuB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,yBAA3B;;AADmB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAAvB;;AAUAJ,aAAS,SAAT,0DAAoB;AAAA;AAAA;AAAA;AAAA;AAChBC,2BAAG,sBAAH,0DAA2B;AAAA;AAAA;AAAA;AAAA;AAAA;AACnBI,oDADmB;;AAEvBA,uDAAW,QAAX;AAFuB;AAAA,mDAGjBR,KAAKS,GAAL,CAASD,QAAT,CAHiB;;AAAA;AAAA;AAAA,mDAIFR,KAAKU,GAAL,EAJE;;AAAA;AAIjBC,kDAJiB;;AAKvBlB,mDAAOmB,KAAP,CAAaD,MAAb,EAAqBH,QAArB;;AALuB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,yBAA3B;;AADgB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAApB;AASH,CA1BD",
+      "file": "meme.test.js",
+      "sourceRoot": "C:/Users/Siddhant/Desktop/meme/test",
+      "sourcesContent": [
+        "const { assert } = require('chai');\r\n\r\nconst Meme = artifacts.require(\"Meme\");\r\n\r\nrequire('chai')\r\n    .use(require('chai-as-promised'))\r\n    .should()\r\n\r\ncontract('Meme', (accounts) => {\r\n    let meme\r\n\r\n    before(async () => {\r\n        meme = await Meme.deployed()\r\n    })\r\n\r\n    describe('deployment', async () => {\r\n        it('deploys successfully', async () => {\r\n            const address = meme.address\r\n            assert.notEqual(address, 0x0)\r\n            assert.notEqual(address, '')\r\n            assert.notEqual(address, null)\r\n            assert.notEqual(address, undefined)\r\n        })     \r\n    })\r\n\r\n    describe('storage', async () => {\r\n        it('updates the memeHash', async () => {\r\n            let memeHash \r\n            memeHash = 'abc123'\r\n            await meme.set(memeHash)\r\n            const result = await meme.get()\r\n            assert.equal(result, memeHash)\r\n        })\r\n    })\r\n})"
+      ]
+    },
+    "mtime": 1606316938399
+  },
+  "{\"filename\":\"C:/Users/Siddhant/Desktop/defi_starter/test/TokenFarm.test.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"C:/Users/Siddhant/Desktop/defi_starter/test\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "slicedToArray",
+        "asyncToGenerator"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "C:/Users/Siddhant/Desktop/defi_starter/test/TokenFarm.test.js",
+      "filenameRelative": "C:/Users/Siddhant/Desktop/defi_starter/test/TokenFarm.test.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "TokenFarm.test.js",
+      "sourceFileName": "TokenFarm.test.js",
+      "sourceRoot": "C:/Users/Siddhant/Desktop/defi_starter/test",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "C:/Users/Siddhant/Desktop/defi_starter/test",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "TokenFarm.test"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"]) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); } }; }();\n\nfunction _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step(\"next\", value); }, function (err) { step(\"throw\", err); }); } } return step(\"next\"); }); }; }\n\nvar _require = require('chai'),\n    assert = _require.assert;\n\nvar DaiToken = artifacts.require('DaiToken');\nvar DappToken = artifacts.require('DappToken');\nvar TokenFarm = artifacts.require('TokenFarm');\n\nrequire('chai').use(require('chai-as-promised')).should();\n\nfunction tokens(n) {\n    return web3.utils.toWei(n, 'ether');\n}\n\ncontract('TokenFarm', function (_ref) {\n    var _ref2 = _slicedToArray(_ref, 2),\n        owner = _ref2[0],\n        investor = _ref2[1];\n\n    var daiToken = void 0,\n        dappToken = void 0,\n        tokenFarm = void 0;\n\n    before(_asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {\n        return regeneratorRuntime.wrap(function _callee$(_context) {\n            while (1) {\n                switch (_context.prev = _context.next) {\n                    case 0:\n                        _context.next = 2;\n                        return DaiToken.new();\n\n                    case 2:\n                        daiToken = _context.sent;\n                        _context.next = 5;\n                        return DappToken.new();\n\n                    case 5:\n                        dappToken = _context.sent;\n                        _context.next = 8;\n                        return TokenFarm.new(dappToken.address, daiToken.address);\n\n                    case 8:\n                        tokenFarm = _context.sent;\n                        _context.next = 11;\n                        return dappToken.transfer(tokenFarm.address, tokens('1000000'));\n\n                    case 11:\n                        _context.next = 13;\n                        return daiToken.transfer(investor, tokens('100'), { from: owner });\n\n                    case 13:\n                    case 'end':\n                        return _context.stop();\n                }\n            }\n        }, _callee, undefined);\n    })));\n\n    describe('Mock DAI Deployment', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {\n        return regeneratorRuntime.wrap(function _callee3$(_context3) {\n            while (1) {\n                switch (_context3.prev = _context3.next) {\n                    case 0:\n                        it('has a name', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {\n                            var name;\n                            return regeneratorRuntime.wrap(function _callee2$(_context2) {\n                                while (1) {\n                                    switch (_context2.prev = _context2.next) {\n                                        case 0:\n                                            _context2.next = 2;\n                                            return daiToken.name();\n\n                                        case 2:\n                                            name = _context2.sent;\n\n                                            assert.equal(name, 'Mock DAI Token');\n\n                                        case 4:\n                                        case 'end':\n                                            return _context2.stop();\n                                    }\n                                }\n                            }, _callee2, undefined);\n                        })));\n\n                    case 1:\n                    case 'end':\n                        return _context3.stop();\n                }\n            }\n        }, _callee3, undefined);\n    })));\n\n    describe('Dapp Token Deployment', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee5() {\n        return regeneratorRuntime.wrap(function _callee5$(_context5) {\n            while (1) {\n                switch (_context5.prev = _context5.next) {\n                    case 0:\n                        it('has a name', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {\n                            var name;\n                            return regeneratorRuntime.wrap(function _callee4$(_context4) {\n                                while (1) {\n                                    switch (_context4.prev = _context4.next) {\n                                        case 0:\n                                            _context4.next = 2;\n                                            return dappToken.name();\n\n                                        case 2:\n                                            name = _context4.sent;\n\n                                            assert.equal(name, 'DApp Token');\n\n                                        case 4:\n                                        case 'end':\n                                            return _context4.stop();\n                                    }\n                                }\n                            }, _callee4, undefined);\n                        })));\n\n                    case 1:\n                    case 'end':\n                        return _context5.stop();\n                }\n            }\n        }, _callee5, undefined);\n    })));\n\n    describe('Token Farm Deployment', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee8() {\n        return regeneratorRuntime.wrap(function _callee8$(_context8) {\n            while (1) {\n                switch (_context8.prev = _context8.next) {\n                    case 0:\n                        it('has a name', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee6() {\n                            var name;\n                            return regeneratorRuntime.wrap(function _callee6$(_context6) {\n                                while (1) {\n                                    switch (_context6.prev = _context6.next) {\n                                        case 0:\n                                            _context6.next = 2;\n                                            return tokenFarm.name();\n\n                                        case 2:\n                                            name = _context6.sent;\n\n                                            assert.equal(name, 'Dapp Token Farm');\n\n                                        case 4:\n                                        case 'end':\n                                            return _context6.stop();\n                                    }\n                                }\n                            }, _callee6, undefined);\n                        })));\n\n                        it('contract has tokens', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee7() {\n                            var balance;\n                            return regeneratorRuntime.wrap(function _callee7$(_context7) {\n                                while (1) {\n                                    switch (_context7.prev = _context7.next) {\n                                        case 0:\n                                            _context7.next = 2;\n                                            return dappToken.balanceOf(tokenFarm.address);\n\n                                        case 2:\n                                            balance = _context7.sent;\n\n                                            assert.equal(balance.toString(), tokens('1000000'));\n\n                                        case 4:\n                                        case 'end':\n                                            return _context7.stop();\n                                    }\n                                }\n                            }, _callee7, undefined);\n                        })));\n\n                    case 2:\n                    case 'end':\n                        return _context8.stop();\n                }\n            }\n        }, _callee8, undefined);\n    })));\n\n    describe('Farming tokens', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee10() {\n        return regeneratorRuntime.wrap(function _callee10$(_context10) {\n            while (1) {\n                switch (_context10.prev = _context10.next) {\n                    case 0:\n                        it('rewards investors for staking mDai tokens', _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee9() {\n                            var result;\n                            return regeneratorRuntime.wrap(function _callee9$(_context9) {\n                                while (1) {\n                                    switch (_context9.prev = _context9.next) {\n                                        case 0:\n                                            result = void 0;\n\n                                            //check investor balance before staking\n\n                                            _context9.next = 3;\n                                            return daiToken.balanceOf(investor);\n\n                                        case 3:\n                                            result = _context9.sent;\n\n                                            assert.equal(result.toString(), tokens('100'), 'investor Mock DAI wallet balance correct before staking');\n\n                                            //stake Mock DAI Tokens\n                                            _context9.next = 7;\n                                            return daiToken.approve(tokenFarm.address, tokens('100'), { from: investor });\n\n                                        case 7:\n                                            _context9.next = 9;\n                                            return tokenFarm.stakeTokens(tokens('100'), { from: investor });\n\n                                        case 9:\n                                            _context9.next = 11;\n                                            return daiToken.balanceOf(investor);\n\n                                        case 11:\n                                            result = _context9.sent;\n\n                                            assert.equal(result.toString(), tokens('0'), 'investor Mock DAI wallet balance correct after staking');\n\n                                            _context9.next = 15;\n                                            return daiToken.balanceOf(tokenFarm.address);\n\n                                        case 15:\n                                            result = _context9.sent;\n\n                                            assert.equal(result.toString(), tokens('100'), 'Token Farm Mock DAI balance correct after staking');\n\n                                            _context9.next = 19;\n                                            return tokenFarm.stakingBalance(investor);\n\n                                        case 19:\n                                            result = _context9.sent;\n\n                                            assert.equal(result.toString(), tokens('100'), 'investor staking balance correct after staking');\n\n                                            _context9.next = 23;\n                                            return tokenFarm.isStaking(investor);\n\n                                        case 23:\n                                            result = _context9.sent;\n\n                                            assert.equal(result.toString(), 'true', 'investor staking status after staking');\n\n                                        case 25:\n                                        case 'end':\n                                            return _context9.stop();\n                                    }\n                                }\n                            }, _callee9, undefined);\n                        })));\n\n                    case 1:\n                    case 'end':\n                        return _context10.stop();\n                }\n            }\n        }, _callee10, undefined);\n    })));\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlRva2VuRmFybS50ZXN0LmpzIl0sIm5hbWVzIjpbInJlcXVpcmUiLCJhc3NlcnQiLCJEYWlUb2tlbiIsImFydGlmYWN0cyIsIkRhcHBUb2tlbiIsIlRva2VuRmFybSIsInVzZSIsInNob3VsZCIsInRva2VucyIsIm4iLCJ3ZWIzIiwidXRpbHMiLCJ0b1dlaSIsImNvbnRyYWN0Iiwib3duZXIiLCJpbnZlc3RvciIsImRhaVRva2VuIiwiZGFwcFRva2VuIiwidG9rZW5GYXJtIiwiYmVmb3JlIiwibmV3IiwiYWRkcmVzcyIsInRyYW5zZmVyIiwiZnJvbSIsImRlc2NyaWJlIiwiaXQiLCJuYW1lIiwiZXF1YWwiLCJiYWxhbmNlT2YiLCJiYWxhbmNlIiwidG9TdHJpbmciLCJyZXN1bHQiLCJhcHByb3ZlIiwic3Rha2VUb2tlbnMiLCJzdGFraW5nQmFsYW5jZSIsImlzU3Rha2luZyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O2VBQW1CQSxRQUFRLE1BQVIsQztJQUFYQyxNLFlBQUFBLE07O0FBRVIsSUFBTUMsV0FBV0MsVUFBVUgsT0FBVixDQUFrQixVQUFsQixDQUFqQjtBQUNBLElBQU1JLFlBQVlELFVBQVVILE9BQVYsQ0FBa0IsV0FBbEIsQ0FBbEI7QUFDQSxJQUFNSyxZQUFZRixVQUFVSCxPQUFWLENBQWtCLFdBQWxCLENBQWxCOztBQUVBQSxRQUFRLE1BQVIsRUFDS00sR0FETCxDQUNTTixRQUFRLGtCQUFSLENBRFQsRUFFS08sTUFGTDs7QUFJQSxTQUFTQyxNQUFULENBQWdCQyxDQUFoQixFQUFtQjtBQUNmLFdBQU9DLEtBQUtDLEtBQUwsQ0FBV0MsS0FBWCxDQUFpQkgsQ0FBakIsRUFBb0IsT0FBcEIsQ0FBUDtBQUNGOztBQUVGSSxTQUFTLFdBQVQsRUFBc0IsZ0JBQXVCO0FBQUE7QUFBQSxRQUFyQkMsS0FBcUI7QUFBQSxRQUFkQyxRQUFjOztBQUN6QyxRQUFJQyxpQkFBSjtBQUFBLFFBQWNDLGtCQUFkO0FBQUEsUUFBeUJDLGtCQUF6Qjs7QUFFQUMsbUVBQU87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ZmlsZSI6IlRva2VuRmFybS50ZXN0LmpzIiwic291cmNlUm9vdCI6IkM6L1VzZXJzL1NpZGRoYW50L0Rlc2t0b3AvZGVmaV9zdGFydGVyL3Rlc3QiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCB7IGFzc2VydCB9ID0gcmVxdWlyZSgnY2hhaScpO1xyXG5cclxuY29uc3QgRGFpVG9rZW4gPSBhcnRpZmFjdHMucmVxdWlyZSgnRGFpVG9rZW4nKVxyXG5jb25zdCBEYXBwVG9rZW4gPSBhcnRpZmFjdHMucmVxdWlyZSgnRGFwcFRva2VuJylcclxuY29uc3QgVG9rZW5GYXJtID0gYXJ0aWZhY3RzLnJlcXVpcmUoJ1Rva2VuRmFybScpXHJcblxyXG5yZXF1aXJlKCdjaGFpJylcclxuICAgIC51c2UocmVxdWlyZSgnY2hhaS1hcy1wcm9taXNlZCcpKVxyXG4gICAgLnNob3VsZCgpXHJcblxyXG5mdW5jdGlvbiB0b2tlbnMobikge1xyXG4gICAgcmV0dXJuIHdlYjMudXRpbHMudG9XZWkobiwgJ2V0aGVyJyk7XHJcbiB9XHJcblxyXG5jb250cmFjdCgnVG9rZW5GYXJtJywgKFtvd25lciwgaW52ZXN0b3JdKSA9PiB7XHJcbiAgICBsZXQgZGFpVG9rZW4sIGRhcHBUb2tlbiwgdG9rZW5GYXJtXHJcblxyXG4gICAgYmVmb3JlKGFzeW5jICgpID0+IHtcclxuICAgICAgICAvL2xvYWQgY29udHJhY3RzXHJcbiAgICAgICAgZGFpVG9rZW4gPSBhd2FpdCBEYWlUb2tlbi5uZXcoKVxyXG4gICAgICAgIGRhcHBUb2tlbiA9IGF3YWl0IERhcHBUb2tlbi5uZXcoKVxyXG4gICAgICAgIHRva2VuRmFybSA9IGF3YWl0IFRva2VuRmFybS5uZXcoZGFwcFRva2VuLmFkZHJlc3MsIGRhaVRva2VuLmFkZHJlc3MpXHJcbiAgICBcclxuICAgICAgICAvL1RyYW5zZmVyIGFsbCBEYXBwIHRva2VucyB0byBUb2tlbiBmYXJtICgxIG1pbGxpb24pXHJcbiAgICAgICAgYXdhaXQgZGFwcFRva2VuLnRyYW5zZmVyKHRva2VuRmFybS5hZGRyZXNzLCB0b2tlbnMoJzEwMDAwMDAnKSlcclxuICAgIFxyXG4gICAgICAgIC8vc2VuZCB0b2tlbnMgdG8gaW52ZXN0b3JcclxuICAgICAgICBhd2FpdCBkYWlUb2tlbi50cmFuc2ZlcihpbnZlc3RvciwgdG9rZW5zKCcxMDAnKSwge2Zyb206IG93bmVyfSlcclxuICAgIH0pXHJcblxyXG4gICAgZGVzY3JpYmUoJ01vY2sgREFJIERlcGxveW1lbnQnLCBhc3luYygpID0+IHtcclxuICAgICAgICBpdCgnaGFzIGEgbmFtZScsIGFzeW5jKCkgPT4ge1xyXG4gICAgICAgICAgICBjb25zdCBuYW1lID0gYXdhaXQgZGFpVG9rZW4ubmFtZSgpXHJcbiAgICAgICAgICAgIGFzc2VydC5lcXVhbChuYW1lLCAnTW9jayBEQUkgVG9rZW4nKVxyXG4gICAgICAgIH0pXHJcbiAgICB9KVxyXG5cclxuICAgIGRlc2NyaWJlKCdEYXBwIFRva2VuIERlcGxveW1lbnQnLCBhc3luYygpID0+IHtcclxuICAgICAgICBpdCgnaGFzIGEgbmFtZScsIGFzeW5jKCkgPT4ge1xyXG4gICAgICAgICAgICBjb25zdCBuYW1lID0gYXdhaXQgZGFwcFRva2VuLm5hbWUoKVxyXG4gICAgICAgICAgICBhc3NlcnQuZXF1YWwobmFtZSwgJ0RBcHAgVG9rZW4nKVxyXG4gICAgICAgIH0pXHJcbiAgICB9KVxyXG5cclxuICAgIGRlc2NyaWJlKCdUb2tlbiBGYXJtIERlcGxveW1lbnQnLCBhc3luYygpID0+IHtcclxuICAgICAgICBpdCgnaGFzIGEgbmFtZScsIGFzeW5jKCkgPT4ge1xyXG4gICAgICAgICAgICBjb25zdCBuYW1lID0gYXdhaXQgdG9rZW5GYXJtLm5hbWUoKVxyXG4gICAgICAgICAgICBhc3NlcnQuZXF1YWwobmFtZSwgJ0RhcHAgVG9rZW4gRmFybScpXHJcbiAgICAgICAgfSlcclxuXHJcbiAgICAgICAgaXQoJ2NvbnRyYWN0IGhhcyB0b2tlbnMnLCBhc3luYygpID0+IHtcclxuICAgICAgICAgICAgbGV0IGJhbGFuY2UgPSBhd2FpdCBkYXBwVG9rZW4uYmFsYW5jZU9mKHRva2VuRmFybS5hZGRyZXNzKVxyXG4gICAgICAgICAgICBhc3NlcnQuZXF1YWwoYmFsYW5jZS50b1N0cmluZygpLCB0b2tlbnMoJzEwMDAwMDAnKSlcclxuICAgICAgICB9KVxyXG4gICAgfSlcclxuXHJcbiAgICBkZXNjcmliZSgnRmFybWluZyB0b2tlbnMnLCBhc3luYygpID0+IHtcclxuICAgICAgICBpdCgncmV3YXJkcyBpbnZlc3RvcnMgZm9yIHN0YWtpbmcgbURhaSB0b2tlbnMnLCBhc3luYygpID0+IHtcclxuICAgICAgICAgICAgbGV0IHJlc3VsdFxyXG5cclxuICAgICAgICAgICAgLy9jaGVjayBpbnZlc3RvciBiYWxhbmNlIGJlZm9yZSBzdGFraW5nXHJcbiAgICAgICAgICAgIHJlc3VsdCA9IGF3YWl0IGRhaVRva2VuLmJhbGFuY2VPZihpbnZlc3RvcilcclxuICAgICAgICAgICAgYXNzZXJ0LmVxdWFsKHJlc3VsdC50b1N0cmluZygpLCB0b2tlbnMoJzEwMCcpLCAnaW52ZXN0b3IgTW9jayBEQUkgd2FsbGV0IGJhbGFuY2UgY29ycmVjdCBiZWZvcmUgc3Rha2luZycpXHJcbiAgICAgICAgXHJcbiAgICAgICAgICAgIC8vc3Rha2UgTW9jayBEQUkgVG9rZW5zXHJcbiAgICAgICAgICAgIGF3YWl0IGRhaVRva2VuLmFwcHJvdmUodG9rZW5GYXJtLmFkZHJlc3MsIHRva2VucygnMTAwJyksIHtmcm9tOiBpbnZlc3Rvcn0pXHJcbiAgICAgICAgICAgIGF3YWl0IHRva2VuRmFybS5zdGFrZVRva2Vucyh0b2tlbnMoJzEwMCcpLCB7ZnJvbTogaW52ZXN0b3J9KVxyXG4gICAgICAgIFxyXG4gICAgICAgICAgICAvL2NoZWNrIHN0YWtpbmcgcmVzdWx0XHJcbiAgICAgICAgICAgIHJlc3VsdCA9IGF3YWl0IGRhaVRva2VuLmJhbGFuY2VPZihpbnZlc3RvcilcclxuICAgICAgICAgICAgYXNzZXJ0LmVxdWFsKHJlc3VsdC50b1N0cmluZygpLCB0b2tlbnMoJzAnKSwgJ2ludmVzdG9yIE1vY2sgREFJIHdhbGxldCBiYWxhbmNlIGNvcnJlY3QgYWZ0ZXIgc3Rha2luZycpXHJcblxyXG4gICAgICAgICAgICByZXN1bHQgPSBhd2FpdCBkYWlUb2tlbi5iYWxhbmNlT2YodG9rZW5GYXJtLmFkZHJlc3MpXHJcbiAgICAgICAgICAgIGFzc2VydC5lcXVhbChyZXN1bHQudG9TdHJpbmcoKSwgdG9rZW5zKCcxMDAnKSwgJ1Rva2VuIEZhcm0gTW9jayBEQUkgYmFsYW5jZSBjb3JyZWN0IGFmdGVyIHN0YWtpbmcnKVxyXG4gICAgICAgIFxyXG4gICAgICAgICAgICByZXN1bHQgPSBhd2FpdCB0b2tlbkZhcm0uc3Rha2luZ0JhbGFuY2UoaW52ZXN0b3IpXHJcbiAgICAgICAgICAgIGFzc2VydC5lcXVhbChyZXN1bHQudG9TdHJpbmcoKSwgdG9rZW5zKCcxMDAnKSwgJ2ludmVzdG9yIHN0YWtpbmcgYmFsYW5jZSBjb3JyZWN0IGFmdGVyIHN0YWtpbmcnKVxyXG4gICAgICAgIFxyXG4gICAgICAgICAgICByZXN1bHQgPSBhd2FpdCB0b2tlbkZhcm0uaXNTdGFraW5nKGludmVzdG9yKVxyXG4gICAgICAgICAgICBhc3NlcnQuZXF1YWwocmVzdWx0LnRvU3RyaW5nKCksICd0cnVlJywgJ2ludmVzdG9yIHN0YWtpbmcgc3RhdHVzIGFmdGVyIHN0YWtpbmcnKVxyXG4gICAgICAgIH0pXHJcbiAgICB9KVxyXG59KSJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "TokenFarm.test.js"
+      ],
+      "names": [
+        "require",
+        "assert",
+        "DaiToken",
+        "artifacts",
+        "DappToken",
+        "TokenFarm",
+        "use",
+        "should",
+        "tokens",
+        "n",
+        "web3",
+        "utils",
+        "toWei",
+        "contract",
+        "owner",
+        "investor",
+        "daiToken",
+        "dappToken",
+        "tokenFarm",
+        "before",
+        "new",
+        "address",
+        "transfer",
+        "from",
+        "describe",
+        "it",
+        "name",
+        "equal",
+        "balanceOf",
+        "balance",
+        "toString",
+        "result",
+        "approve",
+        "stakeTokens",
+        "stakingBalance",
+        "isStaking"
+      ],
+      "mappings": "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",
+      "file": "TokenFarm.test.js",
+      "sourceRoot": "C:/Users/Siddhant/Desktop/defi_starter/test",
+      "sourcesContent": [
+        "const { assert } = require('chai');\r\n\r\nconst DaiToken = artifacts.require('DaiToken')\r\nconst DappToken = artifacts.require('DappToken')\r\nconst TokenFarm = artifacts.require('TokenFarm')\r\n\r\nrequire('chai')\r\n    .use(require('chai-as-promised'))\r\n    .should()\r\n\r\nfunction tokens(n) {\r\n    return web3.utils.toWei(n, 'ether');\r\n }\r\n\r\ncontract('TokenFarm', ([owner, investor]) => {\r\n    let daiToken, dappToken, tokenFarm\r\n\r\n    before(async () => {\r\n        //load contracts\r\n        daiToken = await DaiToken.new()\r\n        dappToken = await DappToken.new()\r\n        tokenFarm = await TokenFarm.new(dappToken.address, daiToken.address)\r\n    \r\n        //Transfer all Dapp tokens to Token farm (1 million)\r\n        await dappToken.transfer(tokenFarm.address, tokens('1000000'))\r\n    \r\n        //send tokens to investor\r\n        await daiToken.transfer(investor, tokens('100'), {from: owner})\r\n    })\r\n\r\n    describe('Mock DAI Deployment', async() => {\r\n        it('has a name', async() => {\r\n            const name = await daiToken.name()\r\n            assert.equal(name, 'Mock DAI Token')\r\n        })\r\n    })\r\n\r\n    describe('Dapp Token Deployment', async() => {\r\n        it('has a name', async() => {\r\n            const name = await dappToken.name()\r\n            assert.equal(name, 'DApp Token')\r\n        })\r\n    })\r\n\r\n    describe('Token Farm Deployment', async() => {\r\n        it('has a name', async() => {\r\n            const name = await tokenFarm.name()\r\n            assert.equal(name, 'Dapp Token Farm')\r\n        })\r\n\r\n        it('contract has tokens', async() => {\r\n            let balance = await dappToken.balanceOf(tokenFarm.address)\r\n            assert.equal(balance.toString(), tokens('1000000'))\r\n        })\r\n    })\r\n\r\n    describe('Farming tokens', async() => {\r\n        it('rewards investors for staking mDai tokens', async() => {\r\n            let result\r\n\r\n            //check investor balance before staking\r\n            result = await daiToken.balanceOf(investor)\r\n            assert.equal(result.toString(), tokens('100'), 'investor Mock DAI wallet balance correct before staking')\r\n        \r\n            //stake Mock DAI Tokens\r\n            await daiToken.approve(tokenFarm.address, tokens('100'), {from: investor})\r\n            await tokenFarm.stakeTokens(tokens('100'), {from: investor})\r\n        \r\n            //check staking result\r\n            result = await daiToken.balanceOf(investor)\r\n            assert.equal(result.toString(), tokens('0'), 'investor Mock DAI wallet balance correct after staking')\r\n\r\n            result = await daiToken.balanceOf(tokenFarm.address)\r\n            assert.equal(result.toString(), tokens('100'), 'Token Farm Mock DAI balance correct after staking')\r\n        \r\n            result = await tokenFarm.stakingBalance(investor)\r\n            assert.equal(result.toString(), tokens('100'), 'investor staking balance correct after staking')\r\n        \r\n            result = await tokenFarm.isStaking(investor)\r\n            assert.equal(result.toString(), 'true', 'investor staking status after staking')\r\n        })\r\n    })\r\n})"
+      ]
+    },
+    "mtime": 1610967176803
+  }
+}

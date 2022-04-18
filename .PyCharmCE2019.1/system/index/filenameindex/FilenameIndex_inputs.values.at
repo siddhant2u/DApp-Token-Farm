@@ -1,0 +1,215 @@
+gine.pypyopenssl.pybindings.pylow_level.py__init__.py	backports	six.pyssl_match_hostname__init__.pymakefile.py__init__.py_implementation.py__init__.py
+ansi.pyansitowin32.py
+winterm.pywin32.pyinitialise.py__init__.py_tokenizer.pytreewalkers_ihatexml.py_trie
+scripts.py_inputstream.py
+filters	_utils.pyserializer.pytreeadaptershtml5parser.py__init__.pytreebuilderspy.py_base.py	datrie.py__init__.pysanitizer.py
+lint.pyalphabeticalattributes.pywhitespace.pyoptionaltags.py
+base.pyinject_meta_charset.py__init__.py	dom.py	genshi.pyetree_lxml.pyetree.py
+base.py__init__.py	sax.py	genshi.py__init__.py	dom.pyetree_lxml.pyetree.py
+base.py__init__.pylinklockfile.pysqlitelockfile.pysymlinklockfile.pypidlockfile.py__init__.pymkdirlockfile.py
+helpers.py	bar.py
+counter.py
+spinner.py__init__.pycerts.pyadapters.pyexceptions.py_internal_utils.py
+cookies.pysessions.pypackages.pystatus_codes.py
+help.pyutils.pyhooks.py	models.py__version__.py
+auth.py	api.py	compat.py__init__.pystructures.pyspecifiers.py
+markers.pyutils.pyrequirements.py
+version.py
+_compat.py_structures.py__init__.py__about__.pycontroller.py
+_cmd.pyfilewrapper.py	cachesserialize.pyheuristics.py
+adapter.pycache.py	compat.py__init__.py
+wrapper.pyredis_cache.pyfile_cache.py__init__.pytests.pyx_user_defined.py	labels.pymklabels.py__init__.pypy31compat.py__init__.pyclidownload.py	modelspyproject.pyexceptions.pyvcslocations.py
+resolve.pyindex.py	compat.pywheel.py_in_process.pybuild_env.pyenvbuild.py
+operationscheck.pypep425tags.pywrappers.pyutilscolorlog.pyconfiguration.pybuild.pycache.pypackage_data.pycommands
+core.py__init__.py__init__.pyreq	compat.pystatus_codes.pyuts46data.pycmdoptions.py	parser.pymain_parser.pyintranges.pyautocompletion.py__init__.pyconstants.pycodec.pybase_command.pyidnadata.pyreq_tracker.pyidnareq_file.pywebencodingsreq_install.py
+msgpackconstructors.pyprogress
+req_set.py
+distlibreq_uninstall.pycolorama__init__.pyipaddress.py	git.pylockfilemercurial.py
+chardet	bazaar.py
+appdirs.pysubversion.py__init__.pyretrying.pyui.py	packagingtemp_dir.py	six.pyglibc.py__init__.pypackaging.py	pytomlsetuptools_build.py
+urllib3
+appdirs.py	distro.pyoutdated.py
+certifi	typing.pypkg_resources
+logging.pyrequestsdeprecation.pycachecontrolencoding.pyhtml5lib	models.py	pep517	hashes.py
+misc.py__init__.py
+_vendor	compat.py	_internalfilesystem.py__init__.py__main__.pypipformat_control.py
+link.pyEGG-INFOeasy-install.pthindex.pysetuptools.pthcandidate.py__init__.py
+Includedownload.py
+Scriptscompletion.py
+pyvenv.cfgQ5.py
+show.pyQ1.py
+list.pyQ2.py
+help.pyQ4.pywheel.pyQ3.py	search.pyRA1911031010054_Set9.docxcheck.pySET 9_Questions.docxuninstall.pypip-19.0.3-py3.8.egg
+install.pyconfiguration.py
+hash.pysetuptools-40.8.0-py3.8.eggsite-packages	freeze.pyLib__init__.pyQ1.pycheck.pyweek2
+prepare.py	freeze.pymodules.xml__init__.py
+python.imlentry_points.txtmisc.xmlvenvtop_level.txt
+algo.pydependency_links.txtClassnot-zip-safeQ2.pyPKG-INFOQ3.pySOURCES.txtpip3-script.pyactivate.bateasy_install-3.8-script.pyeasy_install-3.8.exepythonw.exe
+pip3.8.exepip3.exepip3.8-script.pyActivate.ps1deactivate.batactivate
+python.exeeasy_install.exe
+pip.exeeasy_install-script.pypip-script.pypyparsing.pysetuptools-40.8.0-py3.8.eggEGG-INFOPKG-INFOzip-safeSOURCES.txtrequires.txttop_level.txtentry_points.txtdependency_links.txt
+setuptools	extern__init__.py
+_vendor	six.py	packagingutils.py
+_compat.py
+markers.py
+version.py__init__.py__about__.pyspecifiers.py_structures.pyrequirements.py__init__.pypyparsing.py
+cli.exe
+command
+test.pyalias.pysdist.py	rotate.py	setopt.py	upload.py
+develop.py
+install.py__init__.pybuild_py.pyegg_info.pyregister.pysaveopts.pybdist_egg.pybdist_rpm.pybuild_ext.pydist_info.pybuild_clib.pypy36compat.pyinstall_lib.pyupload_docs.pyeasy_install.pybdist_wininst.pyinstall_scripts.pyinstall_egg_info.pylauncher manifest.xml
+dist.py
+glob.py
+gui.exe
+msvc.pyglibc.pywheel.py	config.py	launch.py	monkey.py
+cli-32.exe
+cli-64.exe
+depends.py
+gui-32.exe
+gui-64.exe
+sandbox.py
+version.py__init__.pydep_util.pyscript.tmplextension.pybuild_meta.pylib2to3_ex.pynamespaces.pypep425tags.pypy27compat.pypy31compat.pypy33compat.pysite-patch.pyssl_support.pyarchive_util.pypackage_index.pyunicode_utils.pyscript (dev).tmplwindows_support.py_deprecation_warning.pypkg_resources	extern__init__.py
+_vendor	six.py	packagingutils.py
+_compat.py
+markers.py
+version.py__init__.py__about__.pyspecifiers.py_structures.pyrequirements.py
+appdirs.py__init__.pypyparsing.py__init__.pypy31compat.pyeasy_install.py~$Week 2.docxQ5.pyQ1.pyQ2.pyQ4.pyQ3.pyWeek 2.docxWeek1Q2.pyQ3.pyQ5.pyQ4.pyQ4.pyWeek 1.docxweek 3.docx"RA1911031010054_Set9_Week1.docx"RA1911031010054_Set9_Week2.docx~$week 3.docxQ5.pyQ1.pyQ2.pyQ4.py	python.ideamisc.xml
+python.imlmodules.xmlworkspace.xmlClassWeek1Q1.pyQ2.pyQ3.pyQ4.pyQ5.pyweek2Q1.pyQ2.pyQ3.pyQ4.pyQ5.pyWeek 1.docxWeek 2.docxweek 3.docx"RA1911031010054_Set9_Week1.docx"RA1911031010054_Set9_Week2.docxQ1.pyQ2.pyQ4.py
+algo.pyQ1.py	Week 3EBNTUSER.DAT{4c7f0f66-3921-11eb-ac79-f94e31f5c78f}.TxR.1.regtrans-ms;8NTUSER.DAT{4c7f0f66-3921-11eb-ac79-f94e31f5c78f}.TxR.blfEBNTUSER.DAT{4c7f0f66-3921-11eb-ac79-f94e31f5c78f}.TxR.0.regtrans-msEBNTUSER.DAT{4c7f0f66-3921-11eb-ac79-f94e31f5c78f}.TxR.2.regtrans-ms	_netrcQ3.pyQ4.pyQ1.py	Week 3Q1 Using instance.pyQ1 Using instance.pyQ3.py	Week 3Q2.pyQ3.pyQ4.pyQ5.pyQ5.pyQ2.pyQ3.pyQ4.pyWeek5 Tkinter.py	sqlite.py
+tkinter.pyWeek5 Tkinter.py	Week 4	Week 5Q5.pyQ1.pyQ2.pyQ4.pyQ3.pyQ5.pyQ1.pyQ2.pyQ4.pyQ3.py	week 2	Week 1Week4 Tkinter.py
+tkinter.py	sqlite.pyCT2deactivate.batActivate.ps1pythonw.exe
+python.exeactivate.batsite-packagesactivate
+Include
+ScriptsLib
+pyvenv.cfgvenvpyopenssl.pyappengine.py__init__.pysecuretransport.pysocks.py_appengine_environ.pyntlmpool.py_securetransport__init__.py
+request.py
+wait.py
+timeout.pyresponse.py	url.pyretry.py
+ssl_.pyconnection.pyqueue.py__init__.py
+request.pyfilepost.pyconnectionpool.pyutilpoolmanager.pyconnection.py
+contribpackagesresponse.py	fields.pyexceptions.py_collections.py__init__.pyfallback.py_version.pyexceptions.py__init__.py
+misc.py	shutil.pysysconfig.cfgsysconfig.py
+tarfile.py__init__.pymanifest.py	compat.py
+t64.exe	_backportmetadata.py
+w32.exe
+version.pyresources.py
+markers.pydatabase.pywheel.py
+util.pyindex.py
+scripts.pylocators.py
+w64.exe
+t32.exe__init__.pychardetect.py	compat.pychardistribution.pyutf8prober.pyuniversaldetector.pycodingstatemachine.pylanghebrewmodel.pylangcyrillicmodel.pyeuckrprober.pyeuctwfreq.pymbcsgroupprober.pyescsm.pylangthaimodel.pycharsetprober.pysbcharsetprober.pylangturkishmodel.pylanggreekmodel.pyeucjpprober.pysjisprober.pylanghungarianmodel.pybig5prober.pyescprober.pycli__init__.pycharsetgroupprober.pyeuctwprober.py	mbcssm.pylatin1prober.pycp949prober.pyhebrewprober.py
+version.pymbcharsetprober.pylangbulgarianmodel.py	jpcntx.pyeuckrfreq.pySOURCES.txtgb2312prober.pyPKG-INFOenums.pynot-zip-safe
+jisfreq.pydependency_links.txtgb2312freq.pytop_level.txtsbcsgroupprober.pyentry_points.txt
+core.pybig5freq.py__init__.py	freeze.py__init__.py
+cacert.pem__main__.pycheck.py
+core.py__init__.py__init__.py	freeze.py	writer.py
+hash.pyutils.pyconfiguration.py
+test.py
+install.py	parser.pyuninstall.py__init__.pycheck.py	compat.py	search.py_in_process.pywheel.pyenvbuild.py
+help.pycheck.py
+list.pywrappers.py
+show.pycolorlog.pycompletion.pybuild.pydownload.pypackage_data.py__init__.py
+core.pycandidate.py__init__.pyindex.py	compat.py
+link.pyuts46data.pyformat_control.pyintranges.py__init__.pycodec.pyfilesystem.pyidnadata.py	compat.pyidna
+misc.pywebencodings	hashes.py
+msgpack	models.pyprogressencoding.py
+distlibdeprecation.pycolorama
+logging.pyipaddress.py	typing.pylockfileoutdated.py
+chardet
+appdirs.py
+appdirs.pysetuptools_build.pypyparsing.pypackaging.pyretrying.pyglibc.py	packagingtemp_dir.py	six.pyui.py__init__.py__init__.py	pytomlsubversion.py
+urllib3	bazaar.py	distro.pymercurial.py
+certifi	git.pypkg_resources__init__.pyrequestsreq_uninstall.pycachecontrol
+req_set.pyconstructors.pyreq_install.pyreq_file.pyreq_tracker.pybase_command.py__init__.pyautocompletion.pymain_parser.py	parser.pycmdoptions.pystatus_codes.pyreq__init__.pycommandscache.pyconfiguration.pyutilspep425tags.py
+operationsbuild_env.pywheel.pyindex.py
+resolve.pylocations.pyvcsexceptions.pypyproject.py	modelsdownload.pycli__init__.pypy31compat.py__init__.pymklabels.py	labels.pyx_user_defined.pytests.py__init__.pyfile_cache.pyredis_cache.py
+wrapper.py__init__.py	compat.pycache.py
+adapter.pyheuristics.pyserialize.py	cachesfilewrapper.py
+prepare.py
+_cmd.py__about__.py__init__.py_structures.pyhtml5lib
+_compat.py
+version.pyrequirements.pyutils.py
+markers.pyspecifiers.pystructures.py__init__.py	compat.py	api.py	pep517
+auth.py__version__.py	models.pyhooks.pyutils.py
+help.py__init__.py
+_vendorstatus_codes.pypackages.py	_internalsessions.py__main__.pypip
+cookies.py_internal_utils.pyEGG-INFOexceptions.pypip-19.0.3-py3.8.eggadapters.pycerts.py__init__.py
+spinner.pysetuptools-40.8.0-py3.8.egg
+counter.py	bar.py
+helpers.pymkdirlockfile.py__init__.pypidlockfile.pysymlinklockfile.pysqlitelockfile.pylinklockfile.py__init__.py
+base.pyetree.pyetree_lxml.py	dom.py__init__.py	genshi.py	sax.py__init__.py
+base.pyetree.pyetree_lxml.py	genshi.py	dom.py__init__.pyinject_meta_charset.py
+base.pyoptionaltags.pycontroller.pywhitespace.py
+lint.pysanitizer.py__init__.py	datrie.py_base.pypy.pytreebuilders__init__.pyalphabeticalattributes.pytreeadaptershtml5parser.pyconstants.py	_utils.py
+filters_inputstream.py_trie_ihatexml.pytreewalkers_tokenizer.py__init__.pyinitialise.pywin32.py
+winterm.pyansitowin32.py
+ansi.py__init__.py_implementation.py__init__.pymakefile.py__init__.pyssl_match_hostname	six.py	backports__init__.pylow_level.pybindings.pyserializer.pysetuptools-40.8.0-py3.8.eggEGG-INFOPKG-INFOzip-safeSOURCES.txtrequires.txttop_level.txtentry_points.txtdependency_links.txt
+setuptools	extern__init__.py
+_vendor	six.py	packagingutils.py
+_compat.py
+markers.py
+version.py__init__.py__about__.pyspecifiers.py_structures.pyrequirements.py__init__.pypyparsing.py
+cli.exe
+command
+test.pyalias.pysdist.py	rotate.py	setopt.py	upload.py
+develop.py
+install.py__init__.pybuild_py.pyegg_info.pyregister.pysaveopts.pybdist_egg.pybdist_rpm.pybuild_ext.pydist_info.pybuild_clib.pypy36compat.pyinstall_lib.pyupload_docs.pyeasy_install.pybdist_wininst.pyinstall_scripts.pyinstall_egg_info.pylauncher manifest.xml
+dist.py
+glob.py
+gui.exe
+msvc.pyglibc.pywheel.py	config.py	launch.py	monkey.py
+cli-32.exe
+cli-64.exe
+depends.py
+gui-32.exe
+gui-64.exe
+sandbox.py
+version.py__init__.pydep_util.pyscript.tmplextension.pybuild_meta.pylib2to3_ex.pynamespaces.pypep425tags.pypy27compat.pypy31compat.pypy33compat.pysite-patch.pyssl_support.pyarchive_util.pypackage_index.pyunicode_utils.py
+1325508483script (dev).tmplwindows_support.py_deprecation_warning.pypkg_resources	extern__init__.py
+_vendor	six.py	packagingutils.py
+_compat.py
+markers.py
+version.py__init__.py__about__.pyspecifiers.py_structures.pyrequirements.py
+appdirs.py__init__.pypyparsing.py__init__.pypy31compat.pyeasy_install.pyeasy-install.pthsetuptools.pth
+pip.exepip3.8-script.pyeasy_install-3.8-script.py
+pip3.8.exepip3-script.pypip-script.pyeasy_install-3.8.exeeasy_install-script.pypip3.exeeasy_install.exe
+scratch.py
+_msi.py_multibytecodec.pyfaulthandler.py_decimal.py
+_opcode.py	_io.py_asyncio.py_contextvars.py_codecs_iso2022.py
+_signal.py
+_ast.py_datetime.py
+_string.py_collections.py
+_codecs.py
+_sha512.py
+_winapi.py	atexit.py_symtable.py_stat.py_multiprocessing.py
+_pickle.py_functools.py_codecs_tw.py_operator.py_tracemalloc.pyitertools.py	_queue.py
+_bz2.py	msvcrt.py
+_ctypes.py
+_random.py
+_socket.py	sys.py
+_sha256.pyxxsubtype.pyerrno.py_elementtree.py_codecs_hk.py
+time.py_sha3.py
+_struct.py
+audioop.py_json.py
+_imp.py
+_bisect.py_sha1.pynt.pybuiltins.py
+_blake2.py_overlapped.py_ctypes_test.py_statistics.py
+_thread.pycmath.py	winreg.py
+_sre.py_codecs_cn.pygc.py_warnings.pyarray.py
+mmap.py_hashlib.py_codecs_kr.py
+_lsprof.py
+math.pybinascii.py_codecs_jp.py
+_csv.py_weakref.py
+zlib.py
+marshal.py	_heapq.py
+_md5.py
+_abc.py_lzma.py
+_locale.py_xxsubinterpreters.py	parser.pymodules.xmlmisc.xmlworkspace.xml
+CT2.iml.idea_testconsole.py
+_ssl.py_testbuffer.py_sqlite3.py_testcapi.py_tkinter.py
+pyexpat.py_testimportmultiple.py	select.pyunicodedata.pywinsound.py_testmultiphase.pyAppLabExam_046 (1).docxOL18MAB204T- Probability and Queuing Theory _Cycle Test - 2_ MCQ s- 30 (1).pdf	Ans5.jpeg0-APP CT-2 lab exam by RA1911003010260 (1).docxC@Ambhilakshit ki pyaari maid.. latest porn Video... FullHD 4K.mp4"SE Unit 2 - study materials.pdfCt2_Lab_Exam.docxAppLabExam_046.docx,)APP_CT-2_lab_exam_by_RA1911003010260.docx
+ans 5.jpegRA1911031010051.docx
+MCQ.pdfans.jpegKH18MAB204T- Probability and Queuing Theory _Cycle Test - 2_ MCQ s- 30.pdf	CC-51.pdf
+444.pdfAPP PYTHON COMPLETE.pdf
+ans 4.jpeg,)APP CT-2 lab exam by RA1911003010260.docxExperiment 12.pkt# RA1911031010054_DAA_PartB C.docx"APP CT2 LAB EXAM (255) (1).docx$!CT2 (Unit 3) Student Material.pdfAPP_CT2_LAB_EXAM_255.docx-*WhatsApp Image 2021-04-07 at 10.37.17.jpegAPP_Lab_CT2_0009_set_13.pdfSET_11_ANSWERS.docx-*WhatsApp Image 2021-04-05 at 10.38.29.jpegMCQ (1).pdf-*WhatsApp Image 2021-04-10 at 10.39.05.jpegAPP CT2 LAB EXAM (255).docx	maths.pdf	scratches(%RA1911031010054_App_modlepractical.py
+answer2.pyUntitled1.ipynbUPE	UPE Q1.py	UPE Q2.pyct2.66410bb3.xmlide-scripting.groovy

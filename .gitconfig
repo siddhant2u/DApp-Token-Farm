@@ -1,0 +1,8 @@
+[user]
+	email = siddhantp4ever@gmail.com
+	name = Siddhant Priyadarshi
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
